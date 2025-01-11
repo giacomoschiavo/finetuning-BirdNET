@@ -1,0 +1,40 @@
+Regulus ignicapilla_Common Firecrest
+Sylvia atricapilla_Eurasian Blackcap
+Muscicapa striata_Spotted Flycatcher
+Phylloscopus collybita_Common Chiffchaff
+Turdus viscivorus_Mistle Thrush
+Glaucidium passerinum_Eurasian Pygmy-Owl
+Prunella modularis_Dunnock
+Lophophanes cristatus_Crested Tit
+Regulus regulus_Goldcrest
+Turdus merula_Eurasian Blackbird
+Certhia familiaris_Eurasian Treecreeper
+Erithacus rubecula_European Robin
+Turdus philomelos_Song Thrush
+Loxia curvirostra_Red Crossbill
+Dendrocopos major_Great Spotted Woodpecker
+Dryocopus martius_Black Woodpecker
+Aegolius funereus_Boreal Owl
+Carduelis carduelis_European Goldfinch
+Cyanistes caeruleus_Eurasian Blue Tit
+Periparus ater_Coal Tit
+Corvus corax_Common Raven
+Anthus trivialis_Tree Pipit
+Cuculus canorus_Common Cuckoo
+Parus major_Great Tit
+Troglodytes troglodytes_Eurasian Wren
+Corvus cornix_Hooded Crow
+Emberiza citrinella_Yellowhammer
+Aegithalos caudatus_Long-tailed Tit
+Alauda arvensis_Eurasian Skylark
+Columba palumbus_Common Wood-Pigeon
+Caprimulgus europaeus_Eurasian Nightjar
+Nucifraga caryocatactes_Eurasian Nutcracker
+Coccothraustes coccothraustes_Hawfinch
+Chloris chloris_European Greenfinch
+Corvus corone_Carrion Crow
+Phylloscopus trochilus_Willow Warbler
+Certhia brachydactyla_Short-toed Treecreeper
+Cisticola juncidis_Zitting Cisticola
+Spinus spinus_Eurasian Siskin
+Poecile palustris_Marsh Tit

@@ -1,0 +1,6 @@
+*.WAV
+Bird_tags_Train.mat
+*.tflite
+Downloads_Labels.txt
+Downloads_Params.csv
+articoli
