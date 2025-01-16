@@ -1,4 +1,4 @@
-File description:
+# File description:
 + **data exploration.ipynb**: contiene un'iniziale esplorazione del dataset
 + **model_eval_no_ft.ipynb**: notebook per valutare un modello birdnet non finetunato
 + **sample_model_evaluation.ipynb**: valutazione del modello su un sample di test
