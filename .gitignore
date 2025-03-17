@@ -1,5 +1,6 @@
 *.WAV
 Bird_tags_Train.mat
+Bird_tags_Test.mat
 *.tflite
 *_Labels.txt
 Downloads_Labels.txt
