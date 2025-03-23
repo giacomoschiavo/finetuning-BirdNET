@@ -1,0 +1,2000 @@
+{
+  "20190601_000000.WAV": {
+    "158": ["Vegetation_"],
+    "159": ["Vegetation_"],
+    "160": ["Vegetation_"]
+  },
+  "20190601_100000.WAV": {
+    "16": ["Vegetation_"],
+    "42": ["Vegetation_"],
+    "67": ["Vegetation_"],
+    "79": ["Phylloscopus collybita_Common Chiffchaff"],
+    "1": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "49": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "76": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "90": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "94": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "107": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "159": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "166": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "171": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "4": ["Wind_", "Wind_"],
+    "5": ["Wind_"],
+    "6": ["Wind_"],
+    "21": ["Wind_"],
+    "20": ["Wind_"],
+    "22": ["Wind_"],
+    "53": ["Wind_"],
+    "55": ["Wind_"],
+    "85": ["Wind_"],
+    "86": ["Wind_"],
+    "123": ["Wind_"],
+    "122": ["Wind_"],
+    "124": ["Wind_"],
+    "125": ["Wind_"],
+    "126": ["Wind_"],
+    "140": ["Wind_"],
+    "142": ["Wind_"]
+  },
+  "20190601_210000.WAV": { "34": ["Vegetation_"] },
+  "20190601_030000.WAV": {
+    "0": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Troglodytes troglodytes_Eurasian Wren"
+    ],
+    "1": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Fringilla coelebs_Common Chaffinch"
+    ],
+    "2": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "3": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "5": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "7": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "10": ["Fringilla coelebs_Common Chaffinch"],
+    "16": ["Fringilla coelebs_Common Chaffinch"],
+    "19": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "13": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "23": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "21": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "20": ["Fringilla coelebs_Common Chaffinch"],
+    "22": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "27": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "35": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "38": ["Fringilla coelebs_Common Chaffinch"],
+    "41": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "50": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "52": ["Fringilla coelebs_Common Chaffinch"],
+    "57": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "55": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "61": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "60": ["Fringilla coelebs_Common Chaffinch"],
+    "62": ["Fringilla coelebs_Common Chaffinch"],
+    "64": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "66": ["Fringilla coelebs_Common Chaffinch"],
+    "65": ["Fringilla coelebs_Common Chaffinch"],
+    "69": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "71": ["Fringilla coelebs_Common Chaffinch"],
+    "74": ["Fringilla coelebs_Common Chaffinch"],
+    "76": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "78": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "75": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "79": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "81": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "80": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "82": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "84": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "86": ["Fringilla coelebs_Common Chaffinch"],
+    "91": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "88": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "94": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "97": ["Fringilla coelebs_Common Chaffinch"],
+    "98": ["Fringilla coelebs_Common Chaffinch"],
+    "101": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "103": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "106": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "108": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "110": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "112": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "107": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "117": ["Fringilla coelebs_Common Chaffinch"],
+    "116": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "118": ["Fringilla coelebs_Common Chaffinch"],
+    "119": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "121": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "120": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "122": ["Fringilla coelebs_Common Chaffinch"],
+    "123": ["Fringilla coelebs_Common Chaffinch"],
+    "129": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "131": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "133": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "136": ["Fringilla coelebs_Common Chaffinch"],
+    "135": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "137": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "138": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "139": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "140": ["Fringilla coelebs_Common Chaffinch"],
+    "142": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "141": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "144": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "147": ["Fringilla coelebs_Common Chaffinch"],
+    "148": ["Fringilla coelebs_Common Chaffinch"],
+    "149": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "151": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "150": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "152": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "154": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "153": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "155": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "157": ["Fringilla coelebs_Common Chaffinch"],
+    "160": ["Fringilla coelebs_Common Chaffinch"],
+    "162": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "163": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "164": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "165": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "166": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "167": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "172": ["Fringilla coelebs_Common Chaffinch"],
+    "170": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "169": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "171": ["Fringilla coelebs_Common Chaffinch"],
+    "175": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "173": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "177": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "176": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "178": ["Fringilla coelebs_Common Chaffinch"],
+    "180": ["Fringilla coelebs_Common Chaffinch"],
+    "179": ["Fringilla coelebs_Common Chaffinch"],
+    "181": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest",
+      "Parus major_Great Tit"
+    ],
+    "182": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "183": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "184": ["Fringilla coelebs_Common Chaffinch"],
+    "187": ["Fringilla coelebs_Common Chaffinch"],
+    "186": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "189": ["Fringilla coelebs_Common Chaffinch"],
+    "192": ["Fringilla coelebs_Common Chaffinch"],
+    "191": ["Fringilla coelebs_Common Chaffinch"],
+    "193": ["Fringilla coelebs_Common Chaffinch"],
+    "195": ["Fringilla coelebs_Common Chaffinch"],
+    "194": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "196": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "197": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "198": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "199": ["Fringilla coelebs_Common Chaffinch"],
+    "4": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "14": ["Erithacus rubecula_European Robin"],
+    "26": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "28": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "30": ["Erithacus rubecula_European Robin"],
+    "37": ["Erithacus rubecula_European Robin"],
+    "39": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "34": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "45": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "48": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "43": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "46": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "47": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "51": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "53": ["Erithacus rubecula_European Robin"],
+    "58": [
+      "Erithacus rubecula_European Robin",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "63": ["Erithacus rubecula_European Robin"],
+    "8": ["Regulus ignicapilla_Common Firecrest"],
+    "9": ["Regulus ignicapilla_Common Firecrest"],
+    "12": ["Regulus ignicapilla_Common Firecrest"],
+    "11": ["Regulus ignicapilla_Common Firecrest"],
+    "18": ["Regulus ignicapilla_Common Firecrest"],
+    "17": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "25": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "24": ["Regulus ignicapilla_Common Firecrest"],
+    "29": ["Regulus ignicapilla_Common Firecrest"],
+    "36": ["Regulus ignicapilla_Common Firecrest"],
+    "32": ["Regulus ignicapilla_Common Firecrest"],
+    "31": ["Regulus ignicapilla_Common Firecrest"],
+    "33": ["Regulus ignicapilla_Common Firecrest"],
+    "40": ["Regulus ignicapilla_Common Firecrest"],
+    "42": ["Regulus ignicapilla_Common Firecrest"],
+    "44": ["Regulus ignicapilla_Common Firecrest"],
+    "49": ["Regulus ignicapilla_Common Firecrest"],
+    "54": ["Regulus ignicapilla_Common Firecrest"],
+    "56": ["Regulus ignicapilla_Common Firecrest"],
+    "59": ["Regulus ignicapilla_Common Firecrest"],
+    "68": ["Regulus ignicapilla_Common Firecrest"],
+    "67": ["Regulus ignicapilla_Common Firecrest"],
+    "77": ["Regulus ignicapilla_Common Firecrest"],
+    "87": ["Regulus ignicapilla_Common Firecrest"],
+    "89": ["Regulus ignicapilla_Common Firecrest"],
+    "102": ["Regulus ignicapilla_Common Firecrest"],
+    "104": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "100": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "99": ["Regulus ignicapilla_Common Firecrest"],
+    "109": ["Regulus ignicapilla_Common Firecrest"],
+    "111": ["Regulus ignicapilla_Common Firecrest"],
+    "115": ["Regulus ignicapilla_Common Firecrest"],
+    "114": ["Regulus ignicapilla_Common Firecrest"],
+    "126": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "125": ["Regulus ignicapilla_Common Firecrest"],
+    "127": ["Regulus ignicapilla_Common Firecrest"],
+    "132": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "143": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "156": ["Regulus ignicapilla_Common Firecrest"],
+    "161": ["Regulus ignicapilla_Common Firecrest"],
+    "190": ["Regulus ignicapilla_Common Firecrest"],
+    "72": ["Phylloscopus collybita_Common Chiffchaff"],
+    "105": ["Phylloscopus collybita_Common Chiffchaff"],
+    "188": ["Phylloscopus collybita_Common Chiffchaff"],
+    "83": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "90": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "93": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "96": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "168": ["Sylvia atricapilla_Eurasian Blackcap"]
+  },
+  "20190601_040000.WAV": {
+    "185": ["Troglodytes troglodytes_Eurasian Wren"],
+    "184": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Fringilla coelebs_Common Chaffinch"
+    ],
+    "186": ["Troglodytes troglodytes_Eurasian Wren"],
+    "194": ["Troglodytes troglodytes_Eurasian Wren"],
+    "193": ["Troglodytes troglodytes_Eurasian Wren"],
+    "195": ["Troglodytes troglodytes_Eurasian Wren"],
+    "1": ["Fringilla coelebs_Common Chaffinch"],
+    "14": ["Fringilla coelebs_Common Chaffinch"],
+    "18": ["Fringilla coelebs_Common Chaffinch"],
+    "21": ["Fringilla coelebs_Common Chaffinch"],
+    "25": ["Fringilla coelebs_Common Chaffinch"],
+    "28": ["Fringilla coelebs_Common Chaffinch"],
+    "32": ["Fringilla coelebs_Common Chaffinch"],
+    "48": ["Fringilla coelebs_Common Chaffinch"],
+    "57": ["Fringilla coelebs_Common Chaffinch"],
+    "61": ["Fringilla coelebs_Common Chaffinch"],
+    "64": ["Fringilla coelebs_Common Chaffinch"],
+    "73": ["Fringilla coelebs_Common Chaffinch"],
+    "70": ["Fringilla coelebs_Common Chaffinch"],
+    "102": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "122": ["Fringilla coelebs_Common Chaffinch"],
+    "125": ["Fringilla coelebs_Common Chaffinch"],
+    "127": ["Fringilla coelebs_Common Chaffinch"],
+    "143": ["Fringilla coelebs_Common Chaffinch"],
+    "142": ["Fringilla coelebs_Common Chaffinch"],
+    "144": ["Fringilla coelebs_Common Chaffinch"],
+    "139": ["Fringilla coelebs_Common Chaffinch"],
+    "140": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "137": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "147": ["Fringilla coelebs_Common Chaffinch"],
+    "148": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "151": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "154": ["Fringilla coelebs_Common Chaffinch"],
+    "159": ["Fringilla coelebs_Common Chaffinch"],
+    "162": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "165": ["Fringilla coelebs_Common Chaffinch"],
+    "169": ["Fringilla coelebs_Common Chaffinch"],
+    "172": ["Fringilla coelebs_Common Chaffinch"],
+    "178": ["Fringilla coelebs_Common Chaffinch"],
+    "181": ["Fringilla coelebs_Common Chaffinch"],
+    "188": ["Fringilla coelebs_Common Chaffinch"],
+    "66": ["Erithacus rubecula_European Robin"],
+    "100": ["Phylloscopus collybita_Common Chiffchaff"],
+    "101": ["Phylloscopus collybita_Common Chiffchaff"],
+    "103": ["Phylloscopus collybita_Common Chiffchaff"],
+    "104": ["Phylloscopus collybita_Common Chiffchaff"],
+    "105": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "106": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "107": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "109": ["Phylloscopus collybita_Common Chiffchaff"],
+    "108": ["Phylloscopus collybita_Common Chiffchaff"],
+    "110": ["Phylloscopus collybita_Common Chiffchaff"],
+    "112": ["Phylloscopus collybita_Common Chiffchaff"],
+    "115": ["Phylloscopus collybita_Common Chiffchaff"],
+    "114": ["Phylloscopus collybita_Common Chiffchaff"],
+    "116": ["Phylloscopus collybita_Common Chiffchaff"],
+    "118": ["Phylloscopus collybita_Common Chiffchaff"],
+    "117": ["Phylloscopus collybita_Common Chiffchaff"],
+    "119": ["Phylloscopus collybita_Common Chiffchaff"],
+    "131": ["Phylloscopus collybita_Common Chiffchaff"],
+    "130": ["Phylloscopus collybita_Common Chiffchaff"],
+    "132": ["Phylloscopus collybita_Common Chiffchaff"],
+    "134": ["Phylloscopus collybita_Common Chiffchaff"],
+    "133": ["Phylloscopus collybita_Common Chiffchaff"],
+    "135": ["Phylloscopus collybita_Common Chiffchaff"],
+    "136": ["Phylloscopus collybita_Common Chiffchaff"],
+    "138": ["Phylloscopus collybita_Common Chiffchaff"],
+    "149": ["Phylloscopus collybita_Common Chiffchaff"],
+    "150": ["Phylloscopus collybita_Common Chiffchaff"],
+    "152": ["Phylloscopus collybita_Common Chiffchaff"],
+    "153": ["Phylloscopus collybita_Common Chiffchaff"],
+    "155": ["Phylloscopus collybita_Common Chiffchaff"],
+    "146": ["Phylloscopus collybita_Common Chiffchaff"],
+    "163": ["Phylloscopus collybita_Common Chiffchaff"],
+    "164": ["Phylloscopus collybita_Common Chiffchaff"],
+    "0": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "47": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "171": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "174": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "179": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "196": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "79": ["Thunder_"],
+    "80": ["Thunder_"],
+    "81": ["Thunder_"],
+    "82": ["Thunder_"],
+    "83": ["Thunder_"]
+  },
+  "20190601_060000.WAV": {
+    "3": ["Troglodytes troglodytes_Eurasian Wren"],
+    "2": ["Troglodytes troglodytes_Eurasian Wren"],
+    "4": ["Troglodytes troglodytes_Eurasian Wren"],
+    "14": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "13": ["Troglodytes troglodytes_Eurasian Wren"],
+    "15": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "25": ["Troglodytes troglodytes_Eurasian Wren"],
+    "24": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "26": ["Troglodytes troglodytes_Eurasian Wren"],
+    "31": ["Troglodytes troglodytes_Eurasian Wren"],
+    "30": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Regulus regulus_Goldcrest"
+    ],
+    "32": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "36": ["Troglodytes troglodytes_Eurasian Wren"],
+    "40": ["Troglodytes troglodytes_Eurasian Wren"],
+    "43": ["Troglodytes troglodytes_Eurasian Wren"],
+    "42": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Regulus regulus_Goldcrest"
+    ],
+    "44": ["Troglodytes troglodytes_Eurasian Wren"],
+    "50": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "49": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "51": ["Troglodytes troglodytes_Eurasian Wren"],
+    "57": ["Troglodytes troglodytes_Eurasian Wren"],
+    "63": ["Troglodytes troglodytes_Eurasian Wren"],
+    "62": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Fringilla coelebs_Common Chaffinch"
+    ],
+    "64": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "68": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "67": ["Troglodytes troglodytes_Eurasian Wren"],
+    "69": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Fringilla coelebs_Common Chaffinch"
+    ],
+    "0": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "6": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "16": ["Fringilla coelebs_Common Chaffinch"],
+    "23": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "27": ["Fringilla coelebs_Common Chaffinch"],
+    "29": ["Fringilla coelebs_Common Chaffinch"],
+    "33": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "35": ["Fringilla coelebs_Common Chaffinch"],
+    "39": ["Fringilla coelebs_Common Chaffinch"],
+    "41": ["Fringilla coelebs_Common Chaffinch"],
+    "46": ["Fringilla coelebs_Common Chaffinch"],
+    "55": ["Fringilla coelebs_Common Chaffinch"],
+    "66": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "73": ["Fringilla coelebs_Common Chaffinch"],
+    "76": ["Fringilla coelebs_Common Chaffinch"],
+    "80": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "83": ["Fringilla coelebs_Common Chaffinch"],
+    "87": ["Fringilla coelebs_Common Chaffinch"],
+    "90": ["Fringilla coelebs_Common Chaffinch"],
+    "94": ["Fringilla coelebs_Common Chaffinch"],
+    "97": ["Fringilla coelebs_Common Chaffinch"],
+    "100": ["Fringilla coelebs_Common Chaffinch"],
+    "103": ["Fringilla coelebs_Common Chaffinch"],
+    "106": ["Fringilla coelebs_Common Chaffinch"],
+    "110": ["Fringilla coelebs_Common Chaffinch"],
+    "115": ["Fringilla coelebs_Common Chaffinch"],
+    "119": ["Fringilla coelebs_Common Chaffinch"],
+    "124": ["Fringilla coelebs_Common Chaffinch"],
+    "127": ["Fringilla coelebs_Common Chaffinch"],
+    "131": ["Fringilla coelebs_Common Chaffinch"],
+    "138": ["Fringilla coelebs_Common Chaffinch"],
+    "144": ["Fringilla coelebs_Common Chaffinch"],
+    "153": ["Fringilla coelebs_Common Chaffinch"],
+    "1": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "7": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "9": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "5": [
+      "Turdus merula_Eurasian Blackbird",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "8": ["Turdus merula_Eurasian Blackbird"],
+    "10": ["Turdus merula_Eurasian Blackbird"],
+    "19": ["Turdus merula_Eurasian Blackbird"],
+    "21": ["Turdus merula_Eurasian Blackbird"],
+    "37": ["Turdus merula_Eurasian Blackbird"],
+    "52": ["Turdus merula_Eurasian Blackbird"],
+    "71": ["Turdus merula_Eurasian Blackbird"],
+    "75": ["Turdus merula_Eurasian Blackbird"],
+    "81": ["Turdus merula_Eurasian Blackbird"],
+    "82": [
+      "Turdus merula_Eurasian Blackbird",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "86": ["Turdus merula_Eurasian Blackbird"],
+    "88": ["Turdus merula_Eurasian Blackbird"],
+    "108": ["Turdus merula_Eurasian Blackbird"],
+    "125": ["Turdus merula_Eurasian Blackbird"],
+    "130": ["Turdus merula_Eurasian Blackbird"],
+    "145": ["Turdus merula_Eurasian Blackbird"],
+    "148": [
+      "Turdus merula_Eurasian Blackbird",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "159": ["Turdus merula_Eurasian Blackbird"],
+    "162": ["Turdus merula_Eurasian Blackbird"],
+    "164": ["Turdus merula_Eurasian Blackbird"],
+    "172": ["Turdus merula_Eurasian Blackbird"],
+    "174": ["Turdus merula_Eurasian Blackbird"],
+    "176": ["Turdus merula_Eurasian Blackbird"],
+    "178": ["Turdus merula_Eurasian Blackbird"],
+    "181": ["Turdus merula_Eurasian Blackbird"],
+    "188": ["Turdus merula_Eurasian Blackbird"],
+    "191": ["Turdus merula_Eurasian Blackbird"],
+    "190": ["Turdus merula_Eurasian Blackbird"],
+    "192": ["Turdus merula_Eurasian Blackbird"],
+    "193": ["Turdus merula_Eurasian Blackbird"],
+    "195": ["Turdus merula_Eurasian Blackbird"],
+    "197": ["Turdus merula_Eurasian Blackbird"],
+    "17": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "91": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "95": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "99": ["Sylvia atricapilla_Eurasian Blackcap"]
+  },
+  "20190601_080000.WAV": {
+    "142": ["Troglodytes troglodytes_Eurasian Wren"],
+    "141": ["Troglodytes troglodytes_Eurasian Wren"],
+    "143": ["Troglodytes troglodytes_Eurasian Wren"],
+    "172": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Sylvia atricapilla_Eurasian Blackcap",
+      "Aeroplane_"
+    ],
+    "171": ["Troglodytes troglodytes_Eurasian Wren", "Aeroplane_"],
+    "173": ["Troglodytes troglodytes_Eurasian Wren", "Aeroplane_"],
+    "182": ["Troglodytes troglodytes_Eurasian Wren"],
+    "181": ["Troglodytes troglodytes_Eurasian Wren"],
+    "183": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Anthus trivialis_Tree Pipit"
+    ],
+    "4": ["Fringilla coelebs_Common Chaffinch"],
+    "8": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "14": ["Fringilla coelebs_Common Chaffinch"],
+    "17": ["Fringilla coelebs_Common Chaffinch"],
+    "26": ["Fringilla coelebs_Common Chaffinch"],
+    "28": ["Fringilla coelebs_Common Chaffinch"],
+    "29": ["Fringilla coelebs_Common Chaffinch"],
+    "31": ["Fringilla coelebs_Common Chaffinch"],
+    "30": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "32": ["Fringilla coelebs_Common Chaffinch"],
+    "34": ["Fringilla coelebs_Common Chaffinch"],
+    "37": ["Fringilla coelebs_Common Chaffinch"],
+    "40": ["Fringilla coelebs_Common Chaffinch"],
+    "45": ["Fringilla coelebs_Common Chaffinch"],
+    "48": ["Fringilla coelebs_Common Chaffinch"],
+    "53": ["Fringilla coelebs_Common Chaffinch"],
+    "56": ["Fringilla coelebs_Common Chaffinch"],
+    "66": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "62": ["Fringilla coelebs_Common Chaffinch"],
+    "59": ["Fringilla coelebs_Common Chaffinch"],
+    "70": ["Fringilla coelebs_Common Chaffinch"],
+    "74": ["Fringilla coelebs_Common Chaffinch"],
+    "82": ["Fringilla coelebs_Common Chaffinch"],
+    "88": ["Fringilla coelebs_Common Chaffinch"],
+    "85": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "124": ["Fringilla coelebs_Common Chaffinch"],
+    "130": ["Fringilla coelebs_Common Chaffinch"],
+    "122": ["Fringilla coelebs_Common Chaffinch"],
+    "133": ["Fringilla coelebs_Common Chaffinch"],
+    "136": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Regulus ignicapilla_Common Firecrest"
+    ],
+    "39": ["Erithacus rubecula_European Robin"],
+    "46": ["Erithacus rubecula_European Robin"],
+    "47": ["Erithacus rubecula_European Robin"],
+    "49": ["Erithacus rubecula_European Robin"],
+    "52": ["Erithacus rubecula_European Robin"],
+    "54": ["Erithacus rubecula_European Robin"],
+    "55": ["Erithacus rubecula_European Robin"],
+    "60": ["Erithacus rubecula_European Robin"],
+    "61": ["Erithacus rubecula_European Robin"],
+    "63": ["Erithacus rubecula_European Robin"],
+    "65": ["Erithacus rubecula_European Robin"],
+    "68": ["Erithacus rubecula_European Robin"],
+    "71": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "73": ["Erithacus rubecula_European Robin"],
+    "75": ["Erithacus rubecula_European Robin"],
+    "77": ["Erithacus rubecula_European Robin"],
+    "79": ["Erithacus rubecula_European Robin"],
+    "84": ["Erithacus rubecula_European Robin"],
+    "90": ["Erithacus rubecula_European Robin"],
+    "92": ["Erithacus rubecula_European Robin"],
+    "93": ["Erithacus rubecula_European Robin"],
+    "91": ["Erithacus rubecula_European Robin"],
+    "95": ["Erithacus rubecula_European Robin"],
+    "94": ["Erithacus rubecula_European Robin"],
+    "96": ["Erithacus rubecula_European Robin"],
+    "97": ["Erithacus rubecula_European Robin"],
+    "98": ["Erithacus rubecula_European Robin"],
+    "99": ["Erithacus rubecula_European Robin"],
+    "100": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "101": ["Erithacus rubecula_European Robin"],
+    "102": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "103": ["Erithacus rubecula_European Robin"],
+    "104": ["Erithacus rubecula_European Robin"],
+    "106": ["Erithacus rubecula_European Robin"],
+    "105": ["Erithacus rubecula_European Robin"],
+    "107": ["Erithacus rubecula_European Robin"],
+    "109": ["Erithacus rubecula_European Robin"],
+    "110": ["Erithacus rubecula_European Robin"],
+    "111": ["Erithacus rubecula_European Robin"],
+    "112": ["Erithacus rubecula_European Robin"],
+    "114": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "116": ["Erithacus rubecula_European Robin"],
+    "117": ["Erithacus rubecula_European Robin"],
+    "118": ["Erithacus rubecula_European Robin"],
+    "119": ["Erithacus rubecula_European Robin"],
+    "153": ["Erithacus rubecula_European Robin"],
+    "158": ["Erithacus rubecula_European Robin"],
+    "160": ["Erithacus rubecula_European Robin"],
+    "162": ["Erithacus rubecula_European Robin"],
+    "164": ["Erithacus rubecula_European Robin"],
+    "166": ["Erithacus rubecula_European Robin", "Aeroplane_"],
+    "169": ["Erithacus rubecula_European Robin", "Aeroplane_"],
+    "174": ["Erithacus rubecula_European Robin", "Aeroplane_"],
+    "176": ["Erithacus rubecula_European Robin"],
+    "185": ["Erithacus rubecula_European Robin"],
+    "187": ["Erithacus rubecula_European Robin"],
+    "191": ["Erithacus rubecula_European Robin"],
+    "193": ["Erithacus rubecula_European Robin"],
+    "197": ["Erithacus rubecula_European Robin"],
+    "12": ["Regulus ignicapilla_Common Firecrest"],
+    "21": ["Regulus ignicapilla_Common Firecrest"],
+    "25": ["Regulus ignicapilla_Common Firecrest"],
+    "36": ["Regulus ignicapilla_Common Firecrest"],
+    "131": ["Regulus ignicapilla_Common Firecrest"],
+    "27": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "149": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "145": ["Anthus trivialis_Tree Pipit"],
+    "144": ["Anthus trivialis_Tree Pipit"],
+    "146": ["Anthus trivialis_Tree Pipit"],
+    "178": ["Anthus trivialis_Tree Pipit"],
+    "177": ["Anthus trivialis_Tree Pipit"],
+    "179": ["Anthus trivialis_Tree Pipit"],
+    "188": ["Anthus trivialis_Tree Pipit"],
+    "165": ["Aeroplane_"],
+    "167": ["Aeroplane_"],
+    "168": ["Aeroplane_"],
+    "170": ["Aeroplane_"],
+    "175": ["Aeroplane_"]
+  },
+  "20190601_150000.WAV": {
+    "13": ["Troglodytes troglodytes_Eurasian Wren"],
+    "12": ["Troglodytes troglodytes_Eurasian Wren"],
+    "14": ["Troglodytes troglodytes_Eurasian Wren"],
+    "20": ["Troglodytes troglodytes_Eurasian Wren"],
+    "56": ["Troglodytes troglodytes_Eurasian Wren"],
+    "55": ["Troglodytes troglodytes_Eurasian Wren"],
+    "57": ["Troglodytes troglodytes_Eurasian Wren"],
+    "64": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "63": ["Troglodytes troglodytes_Eurasian Wren"],
+    "65": [
+      "Troglodytes troglodytes_Eurasian Wren",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "29": ["Phylloscopus collybita_Common Chiffchaff"],
+    "34": ["Phylloscopus collybita_Common Chiffchaff"],
+    "41": ["Phylloscopus collybita_Common Chiffchaff"],
+    "45": ["Phylloscopus collybita_Common Chiffchaff"],
+    "44": ["Phylloscopus collybita_Common Chiffchaff"],
+    "46": ["Phylloscopus collybita_Common Chiffchaff"],
+    "51": ["Phylloscopus collybita_Common Chiffchaff"],
+    "66": ["Phylloscopus collybita_Common Chiffchaff"],
+    "84": ["Phylloscopus collybita_Common Chiffchaff"],
+    "91": ["Phylloscopus collybita_Common Chiffchaff"],
+    "90": ["Phylloscopus collybita_Common Chiffchaff"],
+    "92": ["Phylloscopus collybita_Common Chiffchaff"],
+    "95": ["Phylloscopus collybita_Common Chiffchaff"],
+    "100": ["Phylloscopus collybita_Common Chiffchaff"],
+    "103": ["Phylloscopus collybita_Common Chiffchaff"],
+    "108": ["Phylloscopus collybita_Common Chiffchaff"],
+    "111": ["Phylloscopus collybita_Common Chiffchaff"],
+    "130": ["Phylloscopus collybita_Common Chiffchaff"],
+    "129": ["Phylloscopus collybita_Common Chiffchaff"],
+    "131": ["Phylloscopus collybita_Common Chiffchaff"],
+    "135": ["Phylloscopus collybita_Common Chiffchaff"],
+    "134": ["Phylloscopus collybita_Common Chiffchaff"],
+    "136": ["Phylloscopus collybita_Common Chiffchaff"],
+    "139": ["Phylloscopus collybita_Common Chiffchaff"],
+    "138": ["Phylloscopus collybita_Common Chiffchaff"],
+    "140": ["Phylloscopus collybita_Common Chiffchaff"],
+    "143": ["Phylloscopus collybita_Common Chiffchaff"],
+    "142": ["Phylloscopus collybita_Common Chiffchaff"],
+    "144": ["Phylloscopus collybita_Common Chiffchaff"],
+    "146": ["Phylloscopus collybita_Common Chiffchaff"],
+    "145": ["Phylloscopus collybita_Common Chiffchaff"],
+    "147": ["Phylloscopus collybita_Common Chiffchaff"],
+    "149": ["Phylloscopus collybita_Common Chiffchaff"],
+    "148": ["Phylloscopus collybita_Common Chiffchaff"],
+    "150": ["Phylloscopus collybita_Common Chiffchaff"],
+    "155": ["Phylloscopus collybita_Common Chiffchaff"],
+    "154": ["Phylloscopus collybita_Common Chiffchaff"],
+    "156": ["Phylloscopus collybita_Common Chiffchaff"],
+    "162": ["Phylloscopus collybita_Common Chiffchaff"],
+    "165": ["Phylloscopus collybita_Common Chiffchaff"],
+    "168": ["Phylloscopus collybita_Common Chiffchaff"],
+    "171": ["Phylloscopus collybita_Common Chiffchaff"],
+    "170": ["Phylloscopus collybita_Common Chiffchaff"],
+    "172": ["Phylloscopus collybita_Common Chiffchaff"],
+    "175": ["Phylloscopus collybita_Common Chiffchaff"],
+    "178": ["Phylloscopus collybita_Common Chiffchaff"],
+    "181": ["Phylloscopus collybita_Common Chiffchaff"],
+    "180": ["Phylloscopus collybita_Common Chiffchaff"],
+    "182": ["Phylloscopus collybita_Common Chiffchaff"],
+    "187": ["Phylloscopus collybita_Common Chiffchaff"],
+    "186": ["Phylloscopus collybita_Common Chiffchaff"],
+    "188": ["Phylloscopus collybita_Common Chiffchaff"],
+    "190": ["Phylloscopus collybita_Common Chiffchaff"],
+    "189": ["Phylloscopus collybita_Common Chiffchaff"],
+    "191": ["Phylloscopus collybita_Common Chiffchaff"],
+    "193": ["Phylloscopus collybita_Common Chiffchaff"],
+    "3": ["Wind_"],
+    "2": ["Wind_"],
+    "4": ["Wind_"],
+    "78": ["Wind_"],
+    "152": ["Wind_"],
+    "151": ["Wind_"],
+    "153": ["Wind_"],
+    "161": ["Wind_"],
+    "164": ["Wind_"],
+    "176": ["Wind_"],
+    "184": ["Wind_"]
+  },
+  "20190601_160000.WAV": {
+    "151": ["Troglodytes troglodytes_Eurasian Wren"],
+    "150": ["Troglodytes troglodytes_Eurasian Wren"],
+    "152": ["Troglodytes troglodytes_Eurasian Wren"],
+    "161": ["Troglodytes troglodytes_Eurasian Wren"],
+    "0": ["Wind_", "Wind_"],
+    "1": ["Wind_"],
+    "52": ["Wind_"],
+    "51": ["Wind_"],
+    "53": ["Wind_"],
+    "138": ["Wind_"]
+  },
+  "20190601_170000.WAV": {
+    "174": ["Troglodytes troglodytes_Eurasian Wren"],
+    "173": ["Troglodytes troglodytes_Eurasian Wren"],
+    "175": ["Troglodytes troglodytes_Eurasian Wren"],
+    "186": ["Troglodytes troglodytes_Eurasian Wren"],
+    "185": ["Troglodytes troglodytes_Eurasian Wren"],
+    "187": ["Troglodytes troglodytes_Eurasian Wren"],
+    "144": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "150": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "154": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "159": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "152": ["Engine_Engine"],
+    "151": ["Engine_Engine"],
+    "153": ["Engine_Engine"]
+  },
+  "20190601_050000.WAV": {
+    "4": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "7": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "43": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "75": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "82": ["Fringilla coelebs_Common Chaffinch"],
+    "90": ["Fringilla coelebs_Common Chaffinch"],
+    "96": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "106": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "120": ["Fringilla coelebs_Common Chaffinch"],
+    "122": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "125": ["Fringilla coelebs_Common Chaffinch"],
+    "130": ["Fringilla coelebs_Common Chaffinch"],
+    "133": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Erithacus rubecula_European Robin"
+    ],
+    "140": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "143": ["Fringilla coelebs_Common Chaffinch"],
+    "148": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "151": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "154": ["Fringilla coelebs_Common Chaffinch"],
+    "160": ["Fringilla coelebs_Common Chaffinch"],
+    "0": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "2": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "1": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "3": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "5": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "6": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "8": ["Erithacus rubecula_European Robin"],
+    "9": ["Erithacus rubecula_European Robin"],
+    "10": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "11": ["Erithacus rubecula_European Robin"],
+    "12": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "13": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "15": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "14": ["Erithacus rubecula_European Robin"],
+    "16": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "17": ["Erithacus rubecula_European Robin"],
+    "20": ["Erithacus rubecula_European Robin"],
+    "19": ["Erithacus rubecula_European Robin"],
+    "21": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "22": ["Erithacus rubecula_European Robin"],
+    "26": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "25": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "27": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "35": ["Erithacus rubecula_European Robin"],
+    "29": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "33": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "41": ["Erithacus rubecula_European Robin"],
+    "38": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "37": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "39": ["Erithacus rubecula_European Robin"],
+    "44": ["Erithacus rubecula_European Robin"],
+    "45": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "46": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "47": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "49": ["Erithacus rubecula_European Robin"],
+    "48": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "50": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "52": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "54": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "53": ["Erithacus rubecula_European Robin"],
+    "55": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "56": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "57": ["Erithacus rubecula_European Robin"],
+    "59": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "60": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "62": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "63": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "64": ["Erithacus rubecula_European Robin"],
+    "66": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "67": ["Erithacus rubecula_European Robin"],
+    "68": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "71": ["Erithacus rubecula_European Robin"],
+    "70": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "72": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "74": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "76": ["Erithacus rubecula_European Robin"],
+    "77": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "79": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "83": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "85": ["Erithacus rubecula_European Robin"],
+    "84": ["Erithacus rubecula_European Robin"],
+    "86": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "94": ["Erithacus rubecula_European Robin"],
+    "97": ["Erithacus rubecula_European Robin"],
+    "98": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "101": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "103": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "108": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "107": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "109": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "111": ["Erithacus rubecula_European Robin"],
+    "115": ["Erithacus rubecula_European Robin"],
+    "114": ["Erithacus rubecula_European Robin"],
+    "116": ["Erithacus rubecula_European Robin"],
+    "119": ["Erithacus rubecula_European Robin"],
+    "123": ["Erithacus rubecula_European Robin"],
+    "124": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "128": ["Erithacus rubecula_European Robin"],
+    "127": ["Erithacus rubecula_European Robin"],
+    "129": ["Erithacus rubecula_European Robin"],
+    "131": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "134": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "135": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "136": [
+      "Erithacus rubecula_European Robin",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "145": ["Erithacus rubecula_European Robin"],
+    "170": ["Erithacus rubecula_European Robin"],
+    "174": ["Erithacus rubecula_European Robin", "Periparus ater_Coal Tit"],
+    "177": ["Erithacus rubecula_European Robin"],
+    "184": ["Erithacus rubecula_European Robin"],
+    "191": ["Erithacus rubecula_European Robin"],
+    "194": [
+      "Erithacus rubecula_European Robin",
+      "Erithacus rubecula_European Robin"
+    ],
+    "195": ["Erithacus rubecula_European Robin"],
+    "196": ["Erithacus rubecula_European Robin"],
+    "198": ["Erithacus rubecula_European Robin"],
+    "197": ["Erithacus rubecula_European Robin"],
+    "199": ["Erithacus rubecula_European Robin"],
+    "18": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "24": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "30": ["Phylloscopus collybita_Common Chiffchaff"],
+    "31": ["Phylloscopus collybita_Common Chiffchaff"],
+    "28": ["Phylloscopus collybita_Common Chiffchaff"],
+    "40": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "69": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "78": ["Phylloscopus collybita_Common Chiffchaff"],
+    "81": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "87": ["Phylloscopus collybita_Common Chiffchaff"],
+    "32": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "34": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "36": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "51": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "58": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "61": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "65": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "91": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "95": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "93": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "99": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "100": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "102": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "105": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "110": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "112": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "118": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "121": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "126": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "137": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "138": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "141": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "142": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "146": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "149": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "152": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "153": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "156": [
+      "Sylvia atricapilla_Eurasian Blackcap",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "161": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "163": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "165": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "166": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "168": ["Sylvia atricapilla_Eurasian Blackcap", "Periparus ater_Coal Tit"],
+    "172": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "176": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "181": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "185": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "190": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "155": ["Periparus ater_Coal Tit"],
+    "157": ["Periparus ater_Coal Tit"],
+    "167": ["Periparus ater_Coal Tit"],
+    "180": ["Periparus ater_Coal Tit"]
+  },
+  "20190601_070000.WAV": {
+    "23": ["Fringilla coelebs_Common Chaffinch"],
+    "32": ["Fringilla coelebs_Common Chaffinch"],
+    "35": ["Fringilla coelebs_Common Chaffinch"],
+    "34": ["Fringilla coelebs_Common Chaffinch"],
+    "36": ["Fringilla coelebs_Common Chaffinch"],
+    "38": ["Fringilla coelebs_Common Chaffinch"],
+    "42": ["Fringilla coelebs_Common Chaffinch"],
+    "60": ["Fringilla coelebs_Common Chaffinch"],
+    "63": ["Fringilla coelebs_Common Chaffinch"],
+    "66": ["Fringilla coelebs_Common Chaffinch"],
+    "68": ["Fringilla coelebs_Common Chaffinch"],
+    "73": ["Fringilla coelebs_Common Chaffinch"],
+    "75": ["Fringilla coelebs_Common Chaffinch"],
+    "78": ["Fringilla coelebs_Common Chaffinch"],
+    "83": ["Fringilla coelebs_Common Chaffinch"],
+    "80": ["Fringilla coelebs_Common Chaffinch"],
+    "88": ["Fringilla coelebs_Common Chaffinch"],
+    "91": ["Fringilla coelebs_Common Chaffinch"],
+    "94": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch"
+    ],
+    "96": ["Fringilla coelebs_Common Chaffinch"],
+    "97": ["Fringilla coelebs_Common Chaffinch"],
+    "102": ["Fringilla coelebs_Common Chaffinch"],
+    "104": ["Fringilla coelebs_Common Chaffinch"],
+    "105": ["Fringilla coelebs_Common Chaffinch"],
+    "107": ["Fringilla coelebs_Common Chaffinch"],
+    "108": ["Fringilla coelebs_Common Chaffinch"],
+    "111": ["Fringilla coelebs_Common Chaffinch"],
+    "114": ["Fringilla coelebs_Common Chaffinch"],
+    "115": ["Fringilla coelebs_Common Chaffinch"],
+    "119": ["Fringilla coelebs_Common Chaffinch"],
+    "122": ["Fringilla coelebs_Common Chaffinch"],
+    "121": ["Fringilla coelebs_Common Chaffinch"],
+    "123": ["Fringilla coelebs_Common Chaffinch"],
+    "125": ["Fringilla coelebs_Common Chaffinch"],
+    "127": ["Fringilla coelebs_Common Chaffinch"],
+    "128": ["Fringilla coelebs_Common Chaffinch"],
+    "130": ["Fringilla coelebs_Common Chaffinch"],
+    "132": ["Fringilla coelebs_Common Chaffinch"],
+    "133": ["Fringilla coelebs_Common Chaffinch"],
+    "135": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Fringilla coelebs_Common Chaffinch"
+    ],
+    "136": ["Fringilla coelebs_Common Chaffinch"],
+    "137": ["Fringilla coelebs_Common Chaffinch"],
+    "140": ["Fringilla coelebs_Common Chaffinch"],
+    "143": ["Fringilla coelebs_Common Chaffinch"],
+    "146": ["Fringilla coelebs_Common Chaffinch"],
+    "145": ["Fringilla coelebs_Common Chaffinch"],
+    "147": ["Fringilla coelebs_Common Chaffinch"],
+    "154": ["Fringilla coelebs_Common Chaffinch"],
+    "161": ["Fringilla coelebs_Common Chaffinch"],
+    "164": ["Fringilla coelebs_Common Chaffinch"],
+    "167": ["Fringilla coelebs_Common Chaffinch"],
+    "170": ["Fringilla coelebs_Common Chaffinch"],
+    "173": ["Fringilla coelebs_Common Chaffinch"],
+    "177": ["Fringilla coelebs_Common Chaffinch"],
+    "186": ["Fringilla coelebs_Common Chaffinch"],
+    "192": ["Fringilla coelebs_Common Chaffinch"],
+    "196": ["Fringilla coelebs_Common Chaffinch"],
+    "28": ["Phylloscopus collybita_Common Chiffchaff"],
+    "41": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "70": ["Phylloscopus collybita_Common Chiffchaff"],
+    "67": ["Phylloscopus collybita_Common Chiffchaff"],
+    "79": ["Phylloscopus collybita_Common Chiffchaff"],
+    "86": ["Phylloscopus collybita_Common Chiffchaff"],
+    "81": ["Phylloscopus collybita_Common Chiffchaff"],
+    "92": ["Phylloscopus collybita_Common Chiffchaff"],
+    "90": ["Phylloscopus collybita_Common Chiffchaff"],
+    "11": ["Sylvia atricapilla_Eurasian Blackcap"]
+  },
+  "20190601_110000.WAV": {
+    "7": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "14": ["Fringilla coelebs_Common Chaffinch"],
+    "20": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "26": ["Fringilla coelebs_Common Chaffinch"],
+    "25": ["Fringilla coelebs_Common Chaffinch"],
+    "27": ["Fringilla coelebs_Common Chaffinch"],
+    "46": ["Fringilla coelebs_Common Chaffinch"],
+    "52": ["Fringilla coelebs_Common Chaffinch"],
+    "56": ["Fringilla coelebs_Common Chaffinch"],
+    "62": ["Fringilla coelebs_Common Chaffinch"],
+    "64": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "71": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "74": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "82": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "87": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "102": ["Fringilla coelebs_Common Chaffinch"],
+    "108": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "111": ["Fringilla coelebs_Common Chaffinch"],
+    "123": ["Fringilla coelebs_Common Chaffinch"],
+    "128": ["Fringilla coelebs_Common Chaffinch"],
+    "131": ["Fringilla coelebs_Common Chaffinch"],
+    "135": ["Fringilla coelebs_Common Chaffinch"],
+    "137": ["Fringilla coelebs_Common Chaffinch"],
+    "140": ["Fringilla coelebs_Common Chaffinch"],
+    "147": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "152": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "155": ["Fringilla coelebs_Common Chaffinch"],
+    "165": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "168": ["Fringilla coelebs_Common Chaffinch"],
+    "171": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "185": ["Fringilla coelebs_Common Chaffinch"],
+    "184": [
+      "Fringilla coelebs_Common Chaffinch",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "186": ["Fringilla coelebs_Common Chaffinch"],
+    "189": ["Fringilla coelebs_Common Chaffinch"],
+    "194": ["Fringilla coelebs_Common Chaffinch"],
+    "110": [
+      "Regulus ignicapilla_Common Firecrest",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "1": ["Phylloscopus collybita_Common Chiffchaff"],
+    "0": ["Phylloscopus collybita_Common Chiffchaff"],
+    "2": ["Phylloscopus collybita_Common Chiffchaff"],
+    "4": ["Phylloscopus collybita_Common Chiffchaff"],
+    "3": ["Phylloscopus collybita_Common Chiffchaff"],
+    "5": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "6": ["Phylloscopus collybita_Common Chiffchaff"],
+    "9": ["Phylloscopus collybita_Common Chiffchaff"],
+    "8": ["Phylloscopus collybita_Common Chiffchaff"],
+    "10": ["Phylloscopus collybita_Common Chiffchaff"],
+    "12": ["Phylloscopus collybita_Common Chiffchaff"],
+    "30": ["Phylloscopus collybita_Common Chiffchaff"],
+    "29": ["Phylloscopus collybita_Common Chiffchaff"],
+    "31": ["Phylloscopus collybita_Common Chiffchaff"],
+    "38": ["Phylloscopus collybita_Common Chiffchaff"],
+    "43": ["Phylloscopus collybita_Common Chiffchaff"],
+    "42": ["Phylloscopus collybita_Common Chiffchaff"],
+    "44": ["Phylloscopus collybita_Common Chiffchaff"],
+    "49": ["Phylloscopus collybita_Common Chiffchaff"],
+    "53": ["Phylloscopus collybita_Common Chiffchaff"],
+    "59": ["Phylloscopus collybita_Common Chiffchaff"],
+    "66": ["Phylloscopus collybita_Common Chiffchaff"],
+    "65": ["Phylloscopus collybita_Common Chiffchaff"],
+    "67": ["Phylloscopus collybita_Common Chiffchaff"],
+    "70": ["Phylloscopus collybita_Common Chiffchaff"],
+    "69": ["Phylloscopus collybita_Common Chiffchaff"],
+    "72": ["Phylloscopus collybita_Common Chiffchaff"],
+    "73": ["Phylloscopus collybita_Common Chiffchaff"],
+    "75": ["Phylloscopus collybita_Common Chiffchaff"],
+    "76": ["Phylloscopus collybita_Common Chiffchaff"],
+    "77": ["Phylloscopus collybita_Common Chiffchaff"],
+    "79": ["Phylloscopus collybita_Common Chiffchaff"],
+    "78": ["Phylloscopus collybita_Common Chiffchaff"],
+    "80": ["Phylloscopus collybita_Common Chiffchaff"],
+    "83": ["Phylloscopus collybita_Common Chiffchaff"],
+    "84": ["Phylloscopus collybita_Common Chiffchaff"],
+    "86": ["Phylloscopus collybita_Common Chiffchaff"],
+    "85": ["Phylloscopus collybita_Common Chiffchaff"],
+    "88": ["Phylloscopus collybita_Common Chiffchaff"],
+    "90": ["Phylloscopus collybita_Common Chiffchaff"],
+    "97": ["Phylloscopus collybita_Common Chiffchaff"],
+    "96": ["Phylloscopus collybita_Common Chiffchaff"],
+    "98": ["Phylloscopus collybita_Common Chiffchaff"],
+    "101": ["Phylloscopus collybita_Common Chiffchaff"],
+    "105": ["Phylloscopus collybita_Common Chiffchaff"],
+    "113": ["Phylloscopus collybita_Common Chiffchaff"],
+    "119": ["Phylloscopus collybita_Common Chiffchaff"],
+    "126": ["Phylloscopus collybita_Common Chiffchaff"],
+    "125": ["Phylloscopus collybita_Common Chiffchaff"],
+    "127": ["Phylloscopus collybita_Common Chiffchaff", "Wind_"],
+    "139": ["Phylloscopus collybita_Common Chiffchaff"],
+    "143": ["Phylloscopus collybita_Common Chiffchaff"],
+    "145": ["Phylloscopus collybita_Common Chiffchaff"],
+    "148": ["Phylloscopus collybita_Common Chiffchaff"],
+    "149": ["Phylloscopus collybita_Common Chiffchaff"],
+    "160": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "170": ["Phylloscopus collybita_Common Chiffchaff"],
+    "169": ["Phylloscopus collybita_Common Chiffchaff"],
+    "166": ["Phylloscopus collybita_Common Chiffchaff"],
+    "167": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "176": ["Phylloscopus collybita_Common Chiffchaff"],
+    "175": ["Phylloscopus collybita_Common Chiffchaff"],
+    "177": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "179": ["Phylloscopus collybita_Common Chiffchaff"],
+    "183": ["Phylloscopus collybita_Common Chiffchaff"],
+    "182": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "106": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "122": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "133": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "150": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "164": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "37": ["Wind_"],
+    "32": ["Wind_"]
+  },
+  "20190601_180000.WAV": {
+    "82": ["Fringilla coelebs_Common Chaffinch"],
+    "113": ["Fringilla coelebs_Common Chaffinch"],
+    "122": ["Fringilla coelebs_Common Chaffinch"],
+    "197": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "195": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "193": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "45": ["Wind_"]
+  },
+  "20190601_090000.WAV": {
+    "0": ["Erithacus rubecula_European Robin"],
+    "2": ["Erithacus rubecula_European Robin"],
+    "5": ["Erithacus rubecula_European Robin"],
+    "7": ["Erithacus rubecula_European Robin"],
+    "9": ["Erithacus rubecula_European Robin"],
+    "11": ["Erithacus rubecula_European Robin"],
+    "13": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "15": [
+      "Erithacus rubecula_European Robin",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "17": ["Erithacus rubecula_European Robin"],
+    "20": ["Erithacus rubecula_European Robin"],
+    "22": ["Erithacus rubecula_European Robin"],
+    "21": ["Erithacus rubecula_European Robin"],
+    "23": ["Erithacus rubecula_European Robin"],
+    "27": ["Erithacus rubecula_European Robin"],
+    "28": ["Erithacus rubecula_European Robin"],
+    "81": ["Erithacus rubecula_European Robin"],
+    "84": ["Erithacus rubecula_European Robin"],
+    "86": ["Erithacus rubecula_European Robin"],
+    "89": ["Erithacus rubecula_European Robin"],
+    "97": ["Erithacus rubecula_European Robin"],
+    "103": ["Erithacus rubecula_European Robin"],
+    "106": ["Erithacus rubecula_European Robin"],
+    "101": ["Erithacus rubecula_European Robin"],
+    "100": ["Erithacus rubecula_European Robin"],
+    "111": ["Erithacus rubecula_European Robin"],
+    "6": ["Phylloscopus collybita_Common Chiffchaff"],
+    "14": ["Phylloscopus collybita_Common Chiffchaff"],
+    "26": ["Phylloscopus collybita_Common Chiffchaff"],
+    "32": ["Phylloscopus collybita_Common Chiffchaff"],
+    "94": ["Phylloscopus collybita_Common Chiffchaff"],
+    "93": ["Phylloscopus collybita_Common Chiffchaff"],
+    "95": ["Phylloscopus collybita_Common Chiffchaff"],
+    "107": ["Phylloscopus collybita_Common Chiffchaff"],
+    "116": ["Phylloscopus collybita_Common Chiffchaff"],
+    "127": ["Phylloscopus collybita_Common Chiffchaff"],
+    "126": ["Phylloscopus collybita_Common Chiffchaff"],
+    "128": ["Phylloscopus collybita_Common Chiffchaff"],
+    "139": ["Phylloscopus collybita_Common Chiffchaff"],
+    "138": ["Phylloscopus collybita_Common Chiffchaff"],
+    "140": ["Phylloscopus collybita_Common Chiffchaff"],
+    "144": ["Phylloscopus collybita_Common Chiffchaff"],
+    "143": ["Phylloscopus collybita_Common Chiffchaff"],
+    "145": ["Phylloscopus collybita_Common Chiffchaff"],
+    "148": ["Phylloscopus collybita_Common Chiffchaff"],
+    "147": ["Phylloscopus collybita_Common Chiffchaff"],
+    "149": ["Phylloscopus collybita_Common Chiffchaff"],
+    "153": ["Phylloscopus collybita_Common Chiffchaff"],
+    "157": ["Phylloscopus collybita_Common Chiffchaff"],
+    "158": ["Phylloscopus collybita_Common Chiffchaff"],
+    "163": ["Phylloscopus collybita_Common Chiffchaff"],
+    "166": ["Phylloscopus collybita_Common Chiffchaff"],
+    "165": ["Phylloscopus collybita_Common Chiffchaff"],
+    "167": ["Phylloscopus collybita_Common Chiffchaff"],
+    "169": ["Phylloscopus collybita_Common Chiffchaff"],
+    "168": ["Phylloscopus collybita_Common Chiffchaff"],
+    "170": ["Phylloscopus collybita_Common Chiffchaff"],
+    "173": ["Phylloscopus collybita_Common Chiffchaff"],
+    "177": ["Phylloscopus collybita_Common Chiffchaff"],
+    "181": ["Phylloscopus collybita_Common Chiffchaff"],
+    "185": ["Phylloscopus collybita_Common Chiffchaff"],
+    "189": ["Phylloscopus collybita_Common Chiffchaff"],
+    "188": ["Phylloscopus collybita_Common Chiffchaff"],
+    "190": ["Phylloscopus collybita_Common Chiffchaff"],
+    "194": ["Phylloscopus collybita_Common Chiffchaff"],
+    "197": ["Phylloscopus collybita_Common Chiffchaff"]
+  },
+  "20190601_120000.WAV": {
+    "15": ["Regulus ignicapilla_Common Firecrest"],
+    "43": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "53": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "58": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "94": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "103": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "71": ["Wind_"],
+    "81": ["Wind_"],
+    "87": ["Wind_"],
+    "105": ["Wind_"],
+    "132": ["Wind_"],
+    "153": ["Wind_"],
+    "159": ["Wind_"],
+    "193": ["Wind_"]
+  },
+  "20190601_140000.WAV": {
+    "33": ["Regulus ignicapilla_Common Firecrest"],
+    "123": ["Phylloscopus collybita_Common Chiffchaff"],
+    "122": ["Phylloscopus collybita_Common Chiffchaff"],
+    "124": ["Phylloscopus collybita_Common Chiffchaff"],
+    "126": ["Phylloscopus collybita_Common Chiffchaff"],
+    "125": ["Phylloscopus collybita_Common Chiffchaff"],
+    "127": ["Phylloscopus collybita_Common Chiffchaff"],
+    "132": ["Phylloscopus collybita_Common Chiffchaff"],
+    "131": ["Phylloscopus collybita_Common Chiffchaff"],
+    "133": ["Phylloscopus collybita_Common Chiffchaff"],
+    "138": ["Phylloscopus collybita_Common Chiffchaff"],
+    "137": ["Phylloscopus collybita_Common Chiffchaff"],
+    "139": ["Phylloscopus collybita_Common Chiffchaff"],
+    "147": ["Phylloscopus collybita_Common Chiffchaff"],
+    "161": ["Phylloscopus collybita_Common Chiffchaff"],
+    "160": ["Phylloscopus collybita_Common Chiffchaff"],
+    "162": ["Phylloscopus collybita_Common Chiffchaff"],
+    "165": ["Phylloscopus collybita_Common Chiffchaff"],
+    "164": ["Phylloscopus collybita_Common Chiffchaff"],
+    "166": [
+      "Phylloscopus collybita_Common Chiffchaff",
+      "Phylloscopus collybita_Common Chiffchaff"
+    ],
+    "167": ["Phylloscopus collybita_Common Chiffchaff"],
+    "168": ["Phylloscopus collybita_Common Chiffchaff"],
+    "170": ["Phylloscopus collybita_Common Chiffchaff"],
+    "169": ["Phylloscopus collybita_Common Chiffchaff"],
+    "171": ["Phylloscopus collybita_Common Chiffchaff"],
+    "174": ["Phylloscopus collybita_Common Chiffchaff"],
+    "176": ["Phylloscopus collybita_Common Chiffchaff"],
+    "179": ["Phylloscopus collybita_Common Chiffchaff"],
+    "181": ["Phylloscopus collybita_Common Chiffchaff"],
+    "184": ["Phylloscopus collybita_Common Chiffchaff"],
+    "186": ["Phylloscopus collybita_Common Chiffchaff"],
+    "185": ["Phylloscopus collybita_Common Chiffchaff"],
+    "187": ["Phylloscopus collybita_Common Chiffchaff"],
+    "189": ["Phylloscopus collybita_Common Chiffchaff"],
+    "191": ["Phylloscopus collybita_Common Chiffchaff"],
+    "195": ["Phylloscopus collybita_Common Chiffchaff"],
+    "199": ["Phylloscopus collybita_Common Chiffchaff"],
+    "63": ["Wind_"],
+    "94": ["Wind_"],
+    "152": ["Wind_"],
+    "151": ["Wind_"],
+    "153": ["Wind_"]
+  },
+  "20190601_190000.WAV": {
+    "1": ["Turdus merula_Eurasian Blackbird"],
+    "2": ["Turdus merula_Eurasian Blackbird"],
+    "5": ["Turdus merula_Eurasian Blackbird"],
+    "6": ["Turdus merula_Eurasian Blackbird"],
+    "8": ["Turdus merula_Eurasian Blackbird"],
+    "10": [
+      "Turdus merula_Eurasian Blackbird",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "12": ["Turdus merula_Eurasian Blackbird"],
+    "14": ["Turdus merula_Eurasian Blackbird"],
+    "13": ["Turdus merula_Eurasian Blackbird"],
+    "15": ["Turdus merula_Eurasian Blackbird"],
+    "18": ["Turdus merula_Eurasian Blackbird"],
+    "23": ["Turdus merula_Eurasian Blackbird"],
+    "25": ["Turdus merula_Eurasian Blackbird"],
+    "26": [
+      "Turdus merula_Eurasian Blackbird",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "27": ["Turdus merula_Eurasian Blackbird"],
+    "28": ["Turdus merula_Eurasian Blackbird"],
+    "20": ["Turdus merula_Eurasian Blackbird"],
+    "30": ["Turdus merula_Eurasian Blackbird"],
+    "32": ["Turdus merula_Eurasian Blackbird"],
+    "33": ["Turdus merula_Eurasian Blackbird"],
+    "34": ["Turdus merula_Eurasian Blackbird"],
+    "35": ["Turdus merula_Eurasian Blackbird"],
+    "38": ["Turdus merula_Eurasian Blackbird"],
+    "36": ["Turdus merula_Eurasian Blackbird"],
+    "39": ["Turdus merula_Eurasian Blackbird"],
+    "41": ["Turdus merula_Eurasian Blackbird"],
+    "43": [
+      "Turdus merula_Eurasian Blackbird",
+      "Sylvia atricapilla_Eurasian Blackcap"
+    ],
+    "44": [
+      "Turdus merula_Eurasian Blackbird",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "45": ["Turdus merula_Eurasian Blackbird"],
+    "46": [
+      "Turdus merula_Eurasian Blackbird",
+      "Turdus merula_Eurasian Blackbird"
+    ],
+    "47": ["Turdus merula_Eurasian Blackbird"],
+    "48": ["Turdus merula_Eurasian Blackbird"],
+    "49": ["Turdus merula_Eurasian Blackbird"],
+    "130": ["Turdus merula_Eurasian Blackbird"],
+    "135": ["Turdus merula_Eurasian Blackbird"],
+    "131": ["Turdus merula_Eurasian Blackbird"],
+    "173": ["Turdus merula_Eurasian Blackbird"],
+    "175": ["Turdus merula_Eurasian Blackbird"],
+    "172": ["Turdus merula_Eurasian Blackbird"],
+    "177": ["Turdus merula_Eurasian Blackbird"],
+    "179": ["Turdus merula_Eurasian Blackbird"],
+    "181": ["Turdus merula_Eurasian Blackbird"],
+    "183": ["Turdus merula_Eurasian Blackbird"],
+    "186": ["Turdus merula_Eurasian Blackbird"],
+    "188": ["Turdus merula_Eurasian Blackbird"],
+    "189": ["Turdus merula_Eurasian Blackbird"],
+    "191": ["Turdus merula_Eurasian Blackbird"],
+    "193": ["Turdus merula_Eurasian Blackbird"],
+    "195": ["Turdus merula_Eurasian Blackbird"],
+    "196": ["Turdus merula_Eurasian Blackbird"],
+    "198": ["Turdus merula_Eurasian Blackbird"],
+    "51": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "52": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "53": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "55": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "57": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "60": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "63": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "61": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "66": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "68": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "70": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "72": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "74": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "73": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "75": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "77": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "79": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "81": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "83": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "86": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "89": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "87": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "92": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "94": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "96": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "95": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "97": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "98": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "103": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "108": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "112": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "114": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "118": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "16": ["Engine_Engine"],
+    "21": ["Certhia familiaris_Eurasian Treecreeper"]
+  },
+  "20190601_130000.WAV": {
+    "0": ["Sylvia atricapilla_Eurasian Blackcap"],
+    "25": ["Wind_"],
+    "24": ["Wind_"],
+    "26": ["Wind_"],
+    "50": ["Wind_"],
+    "122": ["Wind_"]
+  },
+  "20190601_230000.WAV": { "84": ["Wind_"] }
+}
