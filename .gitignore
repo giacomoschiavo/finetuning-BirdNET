@@ -8,10 +8,10 @@ Downloads_Params.csv
 articoli
 /classifiers
 /output
-utils/detections.json
-utils/pred_segments_info.json
-utils/segments_info.json
-utils/detections.json
 BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt
 BirdNET-Analyzer-main
 legacy
+utils\~$results_analysis.xlsx
+utils\results_analysis.xlsx
+utils/results_analysis.xlsx
+utils/~$results_analysis.xlsx
