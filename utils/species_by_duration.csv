@@ -1,0 +1,94 @@
+,Species Name,Total,Duration,Count
+0,Fringilla coelebs,4016,0-1s,1257
+1,Turdus philomelos,2263,0-1s,335
+2,Regulus ignicapilla,1297,0-1s,93
+3,Sylvia atricapilla,758,0-1s,19
+4,Erithacus rubecula,752,0-1s,177
+5,Phylloscopus collybita,488,0-1s,3
+6,Regulus regulus,350,0-1s,79
+7,Troglodytes troglodytes,249,0-1s,31
+8,Periparus ater,199,0-1s,71
+9,Certhia familiaris,118,0-1s,81
+10,Wind,92,0-1s,36
+11,Muscicapa striata,76,0-1s,57
+12,Vegetation,62,0-1s,20
+13,Turdus merula,53,0-1s,3
+14,Lophophanes cristatus,48,0-1s,10
+15,Dendrocopos major,42,0-1s,32
+16,Loxia curvirostra,39,0-1s,14
+17,Rain,34,0-1s,5
+18,Pecking,34,0-1s,2
+19,Dryocopus martius,28,0-1s,2
+20,Pyrrhula pyrrhula,23,0-1s,20
+21,Turdus viscivorus,23,0-1s,1
+22,Glaucidium passerinum,6,0-1s,4
+23,Spinus spinus,5,0-1s,5
+24,Insect,4,0-1s,3
+25,Aeroplane,3,0-1s,0
+26,Phylloscopus trochilus,3,0-1s,0
+27,unknown,3,0-1s,2
+28,Bat,1,0-1s,0
+29,Prunella modularis,1,0-1s,0
+30,Poecile palustris,1,0-1s,0
+31,Fringilla coelebs,4016,1-2s,736
+32,Turdus philomelos,2263,1-2s,1081
+33,Regulus ignicapilla,1297,1-2s,526
+34,Sylvia atricapilla,758,1-2s,145
+35,Erithacus rubecula,752,1-2s,332
+36,Phylloscopus collybita,488,1-2s,30
+37,Regulus regulus,350,1-2s,176
+38,Troglodytes troglodytes,249,1-2s,13
+39,Periparus ater,199,1-2s,84
+40,Certhia familiaris,118,1-2s,8
+41,Wind,92,1-2s,16
+42,Muscicapa striata,76,1-2s,2
+43,Vegetation,62,1-2s,19
+44,Turdus merula,53,1-2s,15
+45,Lophophanes cristatus,48,1-2s,23
+46,Dendrocopos major,42,1-2s,7
+47,Loxia curvirostra,39,1-2s,5
+48,Rain,34,1-2s,3
+49,Pecking,34,1-2s,3
+50,Dryocopus martius,28,1-2s,8
+51,Pyrrhula pyrrhula,23,1-2s,0
+52,Turdus viscivorus,23,1-2s,11
+53,Glaucidium passerinum,6,1-2s,0
+54,Spinus spinus,5,1-2s,0
+55,Insect,4,1-2s,0
+56,Aeroplane,3,1-2s,0
+57,Phylloscopus trochilus,3,1-2s,1
+58,unknown,3,1-2s,0
+59,Bat,1,1-2s,1
+60,Prunella modularis,1,1-2s,1
+61,Poecile palustris,1,1-2s,0
+62,Fringilla coelebs,4016,>2s,2023
+63,Turdus philomelos,2263,>2s,847
+64,Regulus ignicapilla,1297,>2s,678
+65,Sylvia atricapilla,758,>2s,594
+66,Erithacus rubecula,752,>2s,243
+67,Phylloscopus collybita,488,>2s,455
+68,Regulus regulus,350,>2s,95
+69,Troglodytes troglodytes,249,>2s,205
+70,Periparus ater,199,>2s,44
+71,Certhia familiaris,118,>2s,29
+72,Wind,92,>2s,40
+73,Muscicapa striata,76,>2s,17
+74,Vegetation,62,>2s,23
+75,Turdus merula,53,>2s,35
+76,Lophophanes cristatus,48,>2s,15
+77,Dendrocopos major,42,>2s,3
+78,Loxia curvirostra,39,>2s,20
+79,Rain,34,>2s,26
+80,Pecking,34,>2s,29
+81,Dryocopus martius,28,>2s,18
+82,Pyrrhula pyrrhula,23,>2s,3
+83,Turdus viscivorus,23,>2s,11
+84,Glaucidium passerinum,6,>2s,2
+85,Spinus spinus,5,>2s,0
+86,Insect,4,>2s,1
+87,Aeroplane,3,>2s,3
+88,Phylloscopus trochilus,3,>2s,2
+89,unknown,3,>2s,1
+90,Bat,1,>2s,0
+91,Prunella modularis,1,>2s,0
+92,Poecile palustris,1,>2s,1
