@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import os
-import json 
+import json
+import matplotlib.pyplot as plt
+
 
 st.title("Model Analysis")
 
@@ -23,7 +23,8 @@ for model_name in comparable_models:
 
 model = st.selectbox("Seleziona un modello:", list(model_reports.keys()))
 df = pd.DataFrame(model_reports[model]).T
-st.dataframe(df, height=800)  
+df = df.sort_values(by="f1-score", ascending=False)
+st.dataframe(df)  
 
 roc_auc_reports = {}
 for model_name in comparable_models:
@@ -43,16 +44,13 @@ for species in roc_auc_data:
     auc = roc_auc_data[species]['auc']
     ax.plot(fpr, tpr, label=f'{species} (AUC = {auc:.2f})')
 
-plt.figure(figsize=(20, 18))  # Aumenta la dimensione
+plt.figure(figsize=(20, 18))  
 plt.plot([0, 1], [0, 1], 'k--')
 plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Curva ROC per Classificazione Multilabel')
 ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.tight_layout()
 st.pyplot(fig)
-
-
 
