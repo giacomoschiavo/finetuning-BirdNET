@@ -1,6 +1,4 @@
 *.WAV
-Bird_tags_Train.mat
-Bird_tags_Test.mat
 *.tflite
 *_Labels.txt
 Downloads_Labels.txt
@@ -8,7 +6,6 @@ Downloads_Params.csv
 articoli
 /classifiers
 /output
-BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt
 BirdNET-Analyzer-main
 legacy
 utils\~$results_analysis.xlsx
