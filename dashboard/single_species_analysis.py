@@ -7,6 +7,7 @@ import torchaudio
 import librosa
 import matplotlib.pyplot as plt
 import numpy as np
+from collections import defaultdict
 
 DATASET_NAME = "NEW_DATASET"
 DATASET_PATH = f"E:/Giacomo/Tovanella/{DATASET_NAME}/"
@@ -18,19 +19,20 @@ with open("../utils/category_info.json") as f:
     category_info = json.load(f)
 
 # load all species names
-species_list = [species for species in category_info.keys()]
+species_list = [species for species in category_info.keys() if species not in removed_species]
 species_list = sorted(species_list)
 selected_species = st.selectbox("Select a species:", species_list)
 if selected_species in removed_species:
     st.write("⚠ Removed from the dataset!")
 
 # load dataframe with metrics
-avg_metrics_df = pd.read_csv("../utils/avg_metrics.json", index_col=0)
+avg_metrics_df = pd.read_csv("../utils/avg_metrics.csv", index_col=0)
 st.dataframe(avg_metrics_df[avg_metrics_df.index == selected_species])
 
 # count division by species
-species_count_sf = pd.read_csv(f"../utils/{DATASET_NAME}/species_count_df.csv", index_col=0)
-st.dataframe(species_count_sf[species_count_sf.index == selected_species])
+species_count_df = pd.read_csv(f"../utils/{DATASET_NAME}/species_count_df.csv", index_col=0)
+species_count_df.columns = ["Train sample count", "Test sample counts"]
+st.dataframe(species_count_df[species_count_df.index == selected_species])
 
 # load dataset division 
 with open(f"../utils/{DATASET_NAME}/species_split.json") as f:
@@ -61,21 +63,23 @@ def show_audio(split_name):
 def show_mel_spec(chosen_audio_path):
     min_db = -80 
     max_db = 10   
-    mel_transform = T.MelSpectrogram(
-      n_mels=96,
-      hop_length=512,
-      f_min=500,
-      f_max=15000,
-      n_fft=1024,
-      sample_rate=48000
-    )
+    # mel_transform = T.MelSpectrogram(
+    #   n_mels=96,
+    #   hop_length=512,
+    #   f_min=500,
+    #   f_max=15000,
+    #   n_fft=1024,
+    #   sample_rate=48000
+    # )
+
     waveform, sr = torchaudio.load(chosen_audio_path)
-    mel_spec = mel_transform(waveform).squeeze(0)
-    mel_spec = librosa.power_to_db(mel_spec, ref=np.max)
+    waveform = waveform.numpy().squeeze(0)  # Converti il tensore in numpy
+    stft = np.abs(librosa.stft(waveform))
+    stft_db = librosa.amplitude_to_db(stft, ref=np.max)
     fig, ax = plt.subplots(figsize=(6, 4))
-    img = librosa.display.specshow(mel_spec, sr=sr, x_axis='time', y_axis='mel', vmin=min_db, vmax=max_db)
+    img = librosa.display.specshow(stft_db, sr=sr, x_axis='time', y_axis='linear', vmin=min_db, vmax=max_db, cmap='gray_r')
+    plt.colorbar(label='dB')
     ax.set(title='Mel Spectrogram (dB)')
-    fig.colorbar(img, ax=ax, format='%+2.0f dB')
     fig.tight_layout()
     st.pyplot(fig)
 
@@ -83,7 +87,7 @@ def show_true_label(chosen_audio_path):
     only_audio_path = os.path.basename(chosen_audio_path)
     date, time, segm = os.path.splitext(only_audio_path)[0].split("_")
     true_labels = true_segments["_".join([date, time]) + ".WAV"][segm]
-    st.markdown("True labels: " + ", ".join([label for label in true_labels]))
+    st.markdown("**True labels**: " + ", ".join([label for label in true_labels]))
 
 with open(f"../utils/{DATASET_NAME}/true_segments.json") as f:
     true_segments = json.load(f)
@@ -120,7 +124,9 @@ if selected_species not in removed_species:
         audio_path = f"{date}_{hour}.WAV"
         custom_mean_conf_scores[audio] = mean_conf_scores.get(audio_path, {}).get(segm, {}).get(selected_species, 0)
 
-    st.dataframe(custom_mean_conf_scores)
+    df = pd.DataFrame(list(custom_mean_conf_scores.items()), columns=['Audio File', 'Mean Confidence Score'])
+    st.markdown('### Mean confidence scores among all classifiers for this segment')
+    st.dataframe(df, hide_index=True)
 
     test_dataset = sorted(test_dataset)
     selected_audio_test = st.selectbox("Select a segment:", test_dataset, key="test_audio_deep_analysis")
@@ -133,3 +139,29 @@ if selected_species not in removed_species:
 
     st.audio(full_audio_path)
     show_mel_spec(full_audio_path)
+
+    confidence_sums = defaultdict(float)
+    confidence_counts = defaultdict(int)
+
+    for audio in test_dataset:
+        parts = audio.split("_")
+        if len(parts) < 3:
+            continue 
+        
+        audio_name = f"{parts[0]}_{parts[1]}.WAV"  
+        segment = parts[2].split(".")[0] 
+        
+        if audio_name in mean_conf_scores and segment in mean_conf_scores[audio_name]:
+            segment_data = mean_conf_scores[audio_name][segment]
+            
+            if selected_species in segment_data:
+                for species, confidence in segment_data.items():
+                    confidence_sums[species] += confidence
+                    confidence_counts[species] += 1
+
+    confidence_means = {species: confidence_sums[species] / confidence_counts[species] 
+                        for species in confidence_sums}
+    conf_means_df = pd.DataFrame(list(confidence_means.items()), columns=['Species Name', 'Confidence Means'])
+
+    st.subheader(f'Species Co-occurrence Confidence')
+    st.dataframe(conf_means_df, hide_index=True)

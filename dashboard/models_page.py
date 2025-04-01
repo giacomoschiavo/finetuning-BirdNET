@@ -11,13 +11,13 @@ models_folder_path = '../classifiers/official'
 model_names = os.listdir(models_folder_path)
 comparable_models = []
 for model in model_names:
-    if os.path.exists(os.path.join(models_folder_path, model, "classification_report.json")):
+    if os.path.exists(os.path.join(models_folder_path, model, "classification_report_1.json")):
         comparable_models.append(model)
 
 # load all classification report
 model_reports = {}
 for model_name in comparable_models:
-    with open(f'{models_folder_path}/{model_name}/classification_report.json') as f:
+    with open(f'{models_folder_path}/{model_name}/classification_report_1.json') as f:
         classification_report = json.load(f)
         model_reports[model_name] = classification_report
 
@@ -29,7 +29,7 @@ st.dataframe(df)
 roc_auc_reports = {}
 for model_name in comparable_models:
     try:
-        f = open(f'{models_folder_path}/{model_name}/roc_auc.json')
+        f = open(f'{models_folder_path}/{model_name}/roc_auc_1.json')
         roc_auc_values = json.load(f)
         roc_auc_reports[model_name] = roc_auc_values
     except:
