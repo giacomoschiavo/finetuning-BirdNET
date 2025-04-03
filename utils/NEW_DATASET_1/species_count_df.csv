@@ -1,0 +1,33 @@
+,train,test
+Aeroplane,0,41
+Bat,0,3
+Certhia familiaris_Eurasian Treecreeper,154,69
+Dendrocopos major_Great Spotted Woodpecker,37,27
+Dryocopus martius_Black Woodpecker,51,24
+Erithacus rubecula_European Robin,1385,69
+Fringilla coelebs_Common Chaffinch,6002,2040
+Glaucidium passerinum_Eurasian Pygmy-Owl,29,4
+Insect,0,13
+Lophophanes cristatus_Crested Tit,115,31
+Loxia curvirostra_Common Crossbill,148,59
+Muscicapa striata_Spotted Flycatcher,256,64
+None,5474,5817
+Pecking,172,8
+Periparus ater_Coal Tit,317,116
+Phylloscopus collybita_Common Chiffchaff,0,2014
+Phylloscopus trochilus_Willow Warbler,0,11
+Poecile palustris_Marsh Tit,0,3
+Prunella modularis_Dunnock,0,2
+Pyrrhula pyrrhula_Eurasian Bullfinch,29,28
+Rain,441,36
+Regulus ignicapilla_Common Firecrest,2777,417
+Regulus regulus_Goldcrest,550,106
+Spinus spinus_Eurasian Siskin,0,9
+Sylvia atricapilla_Eurasian Blackcap,3027,715
+Troglodytes troglodytes_Eurasian Wren,1159,52
+Turdus merula_Eurasian Blackbird,155,13
+Turdus philomelos_Song Thrush,4317,58
+Turdus viscivorus_Mistle Thrush,0,112
+unknown,0,8
+Vegetation,194,21
+Wind,381,82
