@@ -13,7 +13,6 @@ def specs_generation(input_path, output_path, mappings):
     for species in os.listdir(input_path):
         if species not in mappings:
             continue
-
         species_path = os.path.join(input_path, species)
         output_species_path = os.path.join(output_path, species)
         os.makedirs(output_species_path, exist_ok=True)
@@ -26,7 +25,6 @@ def specs_generation(input_path, output_path, mappings):
             if os.path.exists(save_path):
                 continue
             audio_path = os.path.join(species_path, audio)
-
             waveform, sr = torchaudio.load(audio_path)
 
             if sr != sample_rate:
@@ -39,14 +37,19 @@ def specs_generation(input_path, output_path, mappings):
             else:
                 waveform = waveform[:, :target_samples]
 
+            waveform = waveform[0:1, :]  # keep solo il primo canale
+
+            window = torch.hann_window(n_fft, device=waveform.device)
+
             stft = torch.stft(
                 waveform,
                 n_fft=n_fft,
                 hop_length=hop_length,
                 win_length=win_length,
+                window=window,
                 return_complex=True
             )
-            spectrogram = torch.abs(stft).squeeze(0)  # shape: (freq, time)
+            spectrogram = torch.abs(stft)  # shape: (freq, time)
 
             # Optional log scaling or 
             spectrogram = torch.log1p(spectrogram)
@@ -54,6 +57,7 @@ def specs_generation(input_path, output_path, mappings):
 
             # Resize to 256x256
             spectrogram = spectrogram.unsqueeze(0).unsqueeze(0)  # (1, 1, freq, time)
+            print(audio)
             spectrogram = F.interpolate(spectrogram, size=(256, 256), mode="bilinear", align_corners=False)
             spectrogram = spectrogram.squeeze(0).squeeze(0)  # torna a (256, 256)
 
