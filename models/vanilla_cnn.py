@@ -15,7 +15,6 @@ class AudioCNN(nn.Module):
 
         self.fc1 = nn.Linear(64 * 4 * 4, 128)
         self.fc2 = nn.Linear(128, num_classes)
-        self.sigmoid = nn.Sigmoid()
 
     def forward(self, x):
         if x.ndim == 3:  # [batch, 256, 256] → aggiungi il canale

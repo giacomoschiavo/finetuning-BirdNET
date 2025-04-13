@@ -2,6 +2,7 @@ import os
 import torchaudio
 import torch
 import torch.nn.functional as F
+import random
 
 def specs_generation(input_path, output_path, mappings):
     sample_rate = 32000
@@ -69,13 +70,15 @@ def collect_samples(train_path, test_path, mappings):
     for species in os.listdir(train_path):
         if species not in os.listdir(test_path):
             continue
-        for audio in os.listdir(os.path.join(train_path, species)):
+        audio_list = os.listdir(os.path.join(train_path, species))
+        valid_samples = random.sample(audio_list, len(audio_list) // 10)
+        for audio in audio_list:
             if audio in samples_train:      # same audio in different folders, save the other species
                 samples_train[audio]["labels"].append(mappings[species])
                 continue
             samples_train[audio] = {
                 "file_path": os.path.join(train_path, species, audio),
-                "split": "train",
+                "split": "valid" if audio in valid_samples else "train",
                 "labels": [mappings[species]]
             }
 
