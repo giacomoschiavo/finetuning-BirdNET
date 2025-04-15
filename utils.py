@@ -5,6 +5,16 @@ import torch.nn.functional as F
 import random
 from torch.utils.data import DataLoader, Dataset
 import importlib
+import json
+
+def get_mappings(test_path):
+    test_species = os.listdir(test_path) 
+    with open("utils/category_annots.json") as f:
+        category_annots = json.load(f)
+
+    filtered_species = [species for species in category_annots.keys() if len(species.split("_")) > 1 and species in test_species]
+    mappings = {species: i for i, species in enumerate(filtered_species)}
+    return mappings
 
 def load_model_class(model_name):
     model_module = importlib.import_module(f"models.{model_name}.model")
