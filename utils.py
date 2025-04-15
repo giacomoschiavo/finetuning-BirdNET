@@ -21,7 +21,8 @@ def load_model_class(model_name):
     model_class = getattr(model_module, model_name)
     return model_class
 
-def collect_samples(train_path, test_path, mappings):
+def collect_samples(train_path, test_path, mappings, seed=42):
+    random.seed(seed)  
     samples_train = {}
     for species in os.listdir(train_path):
         if species not in os.listdir(test_path):
