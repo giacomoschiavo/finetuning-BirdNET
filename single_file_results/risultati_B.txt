@@ -1,0 +1,142 @@
+Inizio: 0.00 s, Fine: 3.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2956
+Inizio: 6.00 s, Fine: 9.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1117
+Inizio: 6.00 s, Fine: 9.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1006
+Inizio: 9.00 s, Fine: 12.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1102
+Inizio: 12.00 s, Fine: 15.00 s, Specie: Certhia familiaris_Eurasian Treecreeper, Confidence score: 0.1088
+Inizio: 15.00 s, Fine: 18.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2604
+Inizio: 18.00 s, Fine: 21.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2905
+Inizio: 18.00 s, Fine: 21.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1828
+Inizio: 24.00 s, Fine: 27.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1000
+Inizio: 27.00 s, Fine: 30.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.3593
+Inizio: 33.00 s, Fine: 36.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1944
+Inizio: 39.00 s, Fine: 42.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2170
+Inizio: 42.00 s, Fine: 45.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1996
+Inizio: 48.00 s, Fine: 51.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2729
+Inizio: 48.00 s, Fine: 51.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1392
+Inizio: 48.00 s, Fine: 51.00 s, Specie: Regulus ignicapilla_Common Firecrest, Confidence score: 0.1135
+Inizio: 57.00 s, Fine: 60.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1010
+Inizio: 60.00 s, Fine: 63.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1701
+Inizio: 63.00 s, Fine: 66.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1386
+Inizio: 69.00 s, Fine: 72.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1784
+Inizio: 72.00 s, Fine: 75.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2407
+Inizio: 75.00 s, Fine: 78.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1256
+Inizio: 81.00 s, Fine: 84.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1014
+Inizio: 87.00 s, Fine: 90.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1271
+Inizio: 90.00 s, Fine: 93.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1459
+Inizio: 99.00 s, Fine: 102.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2053
+Inizio: 105.00 s, Fine: 108.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2998
+Inizio: 105.00 s, Fine: 108.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1161
+Inizio: 114.00 s, Fine: 117.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1728
+Inizio: 114.00 s, Fine: 117.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1180
+Inizio: 117.00 s, Fine: 120.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2276
+Inizio: 120.00 s, Fine: 123.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2367
+Inizio: 123.00 s, Fine: 126.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.3951
+Inizio: 141.00 s, Fine: 144.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1675
+Inizio: 141.00 s, Fine: 144.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1000
+Inizio: 144.00 s, Fine: 147.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.2420
+Inizio: 144.00 s, Fine: 147.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1394
+Inizio: 147.00 s, Fine: 150.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1882
+Inizio: 147.00 s, Fine: 150.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1275
+Inizio: 147.00 s, Fine: 150.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1159
+Inizio: 147.00 s, Fine: 150.00 s, Specie: Certhia familiaris_Eurasian Treecreeper, Confidence score: 0.1022
+Inizio: 150.00 s, Fine: 153.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1234
+Inizio: 159.00 s, Fine: 162.00 s, Specie: Muscicapa striata_Spotted Flycatcher, Confidence score: 0.2727
+Inizio: 159.00 s, Fine: 162.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1259
+Inizio: 162.00 s, Fine: 165.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2429
+Inizio: 165.00 s, Fine: 168.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1380
+Inizio: 171.00 s, Fine: 174.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.2258
+Inizio: 171.00 s, Fine: 174.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1913
+Inizio: 174.00 s, Fine: 177.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.2047
+Inizio: 180.00 s, Fine: 183.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1978
+Inizio: 186.00 s, Fine: 189.00 s, Specie: Lophophanes cristatus_Crested Tit, Confidence score: 0.2308
+Inizio: 186.00 s, Fine: 189.00 s, Specie: None_, Confidence score: 0.2061
+Inizio: 186.00 s, Fine: 189.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1070
+Inizio: 192.00 s, Fine: 195.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1244
+Inizio: 192.00 s, Fine: 195.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1226
+Inizio: 198.00 s, Fine: 201.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1752
+Inizio: 204.00 s, Fine: 207.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2167
+Inizio: 204.00 s, Fine: 207.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1231
+Inizio: 207.00 s, Fine: 210.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1207
+Inizio: 213.00 s, Fine: 216.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.2797
+Inizio: 213.00 s, Fine: 216.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.2037
+Inizio: 216.00 s, Fine: 219.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1815
+Inizio: 219.00 s, Fine: 222.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1918
+Inizio: 222.00 s, Fine: 225.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1025
+Inizio: 225.00 s, Fine: 228.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1166
+Inizio: 234.00 s, Fine: 237.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1760
+Inizio: 234.00 s, Fine: 237.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1681
+Inizio: 243.00 s, Fine: 246.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2370
+Inizio: 255.00 s, Fine: 258.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1318
+Inizio: 258.00 s, Fine: 261.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1134
+Inizio: 267.00 s, Fine: 270.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1184
+Inizio: 273.00 s, Fine: 276.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1720
+Inizio: 273.00 s, Fine: 276.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1036
+Inizio: 276.00 s, Fine: 279.00 s, Specie: None_, Confidence score: 0.1507
+Inizio: 279.00 s, Fine: 282.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2337
+Inizio: 282.00 s, Fine: 285.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1382
+Inizio: 285.00 s, Fine: 288.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.5213
+Inizio: 294.00 s, Fine: 297.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1049
+Inizio: 300.00 s, Fine: 303.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1383
+Inizio: 309.00 s, Fine: 312.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1661
+Inizio: 309.00 s, Fine: 312.00 s, Specie: Certhia familiaris_Eurasian Treecreeper, Confidence score: 0.1280
+Inizio: 318.00 s, Fine: 321.00 s, Specie: Certhia familiaris_Eurasian Treecreeper, Confidence score: 0.1730
+Inizio: 321.00 s, Fine: 324.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2552
+Inizio: 321.00 s, Fine: 324.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1354
+Inizio: 324.00 s, Fine: 327.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.3392
+Inizio: 324.00 s, Fine: 327.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1503
+Inizio: 327.00 s, Fine: 330.00 s, Specie: Turdus merula_Eurasian Blackbird, Confidence score: 0.1258
+Inizio: 330.00 s, Fine: 333.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1867
+Inizio: 330.00 s, Fine: 333.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1721
+Inizio: 333.00 s, Fine: 336.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1631
+Inizio: 339.00 s, Fine: 342.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2268
+Inizio: 342.00 s, Fine: 345.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1176
+Inizio: 348.00 s, Fine: 351.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1616
+Inizio: 357.00 s, Fine: 360.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1827
+Inizio: 369.00 s, Fine: 372.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1183
+Inizio: 381.00 s, Fine: 384.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.3296
+Inizio: 384.00 s, Fine: 387.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2088
+Inizio: 387.00 s, Fine: 390.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1997
+Inizio: 396.00 s, Fine: 399.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1179
+Inizio: 399.00 s, Fine: 402.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2237
+Inizio: 405.00 s, Fine: 408.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.4775
+Inizio: 411.00 s, Fine: 414.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1330
+Inizio: 414.00 s, Fine: 417.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1363
+Inizio: 420.00 s, Fine: 423.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1265
+Inizio: 438.00 s, Fine: 441.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1139
+Inizio: 447.00 s, Fine: 450.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2391
+Inizio: 450.00 s, Fine: 453.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1656
+Inizio: 453.00 s, Fine: 456.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1103
+Inizio: 456.00 s, Fine: 459.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2004
+Inizio: 474.00 s, Fine: 477.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.4717
+Inizio: 483.00 s, Fine: 486.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1188
+Inizio: 492.00 s, Fine: 495.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1304
+Inizio: 495.00 s, Fine: 498.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.3103
+Inizio: 495.00 s, Fine: 498.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1555
+Inizio: 498.00 s, Fine: 501.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1210
+Inizio: 501.00 s, Fine: 504.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1802
+Inizio: 504.00 s, Fine: 507.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1131
+Inizio: 516.00 s, Fine: 519.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1785
+Inizio: 519.00 s, Fine: 522.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1557
+Inizio: 519.00 s, Fine: 522.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1475
+Inizio: 525.00 s, Fine: 528.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1759
+Inizio: 528.00 s, Fine: 531.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2503
+Inizio: 528.00 s, Fine: 531.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1004
+Inizio: 531.00 s, Fine: 534.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1509
+Inizio: 540.00 s, Fine: 543.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.2653
+Inizio: 543.00 s, Fine: 546.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1626
+Inizio: 555.00 s, Fine: 558.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1405
+Inizio: 558.00 s, Fine: 561.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.5706
+Inizio: 558.00 s, Fine: 561.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1197
+Inizio: 561.00 s, Fine: 564.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1209
+Inizio: 564.00 s, Fine: 567.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.3518
+Inizio: 567.00 s, Fine: 570.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1859
+Inizio: 570.00 s, Fine: 573.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2686
+Inizio: 576.00 s, Fine: 579.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.2047
+Inizio: 582.00 s, Fine: 585.00 s, Specie: Turdus viscivorus_Mistle Thrush, Confidence score: 0.2207
+Inizio: 582.00 s, Fine: 585.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1284
+Inizio: 582.00 s, Fine: 585.00 s, Specie: Turdus philomelos_Song Thrush, Confidence score: 0.1097
+Inizio: 585.00 s, Fine: 588.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1342
+Inizio: 588.00 s, Fine: 591.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.4309
+Inizio: 588.00 s, Fine: 591.00 s, Specie: Troglodytes troglodytes_Eurasian Wren, Confidence score: 0.1760
+Inizio: 594.00 s, Fine: 597.00 s, Specie: Regulus regulus_Goldcrest, Confidence score: 0.1363
+Inizio: 594.00 s, Fine: 597.00 s, Specie: Sylvia atricapilla_Eurasian Blackcap, Confidence score: 0.1224
