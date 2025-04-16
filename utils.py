@@ -21,11 +21,11 @@ def load_model_class(model_name):
     model_class = getattr(model_module, model_name)
     return model_class
 
-def collect_samples(train_path, test_path, mappings, seed=42):
+def collect_samples(train_path, test_path, final_test_path, mappings, seed=42):
     random.seed(seed)  
     samples_train = {}
     for species in os.listdir(train_path):
-        if species not in os.listdir(test_path):
+        if species not in mappings:
             continue
         audio_list = os.listdir(os.path.join(train_path, species))
         valid_samples = random.sample(audio_list, len(audio_list) // 10)
@@ -41,6 +41,8 @@ def collect_samples(train_path, test_path, mappings, seed=42):
 
     samples_test = {}
     for species in os.listdir(test_path):
+        if species not in mappings:
+            continue
         for audio in os.listdir(os.path.join(test_path, species)):
             labels = [mappings[species]]
             updated = False
@@ -57,10 +59,25 @@ def collect_samples(train_path, test_path, mappings, seed=42):
                 "split": "test",
                 "labels": labels
             }
+
+    samples_final_test = {}
+    for species in os.listdir(final_test_path):
+        if species not in mappings:
+            continue
+        for audio in os.listdir(os.path.join(final_test_path, species)):
+            labels = [mappings[species]]
+            samples_final_test[audio] = {
+                "file_path": os.path.join(final_test_path, species, audio),
+                "split": "final_test",
+                "labels": labels
+            }
+
     samples = []
     for _, props in samples_train.items():
         samples.append(props)
     for _, props in samples_test.items():
+        samples.append(props)
+    for _, props in samples_final_test.items():
         samples.append(props)
     return samples
 
