@@ -32,9 +32,20 @@ def show_mel_spec(chosen_audio_path):
 
 def show_true_labels(chosen_audio_path, true_segments):
     only_audio_path = os.path.basename(chosen_audio_path)
-    date, time, segm1, segm2 = os.path.splitext(only_audio_path)[0].split("_")
+    if len(os.path.splitext(only_audio_path)[0].split("_")) == 4:
+        date, time, segm1, segm2 = os.path.splitext(only_audio_path)[0].split("_")
+    else:
+        _, date, time, segm1, segm2 = os.path.splitext(only_audio_path)[0].split("_")
     segm = "_".join([segm1, segm2])
     true_labels = true_segments["_".join([date, time]) + ".WAV"][segm]
     st.markdown("##### True Labels")
     bulleted_labels = "\n".join([f"- {label}" for label in true_labels])
     st.markdown(bulleted_labels)
+
+
+def get_species_count(dataset_config, species_name):
+    count = {"train": 0, "valid": 0, "test": 0}
+    for sample in dataset_config["samples"]:
+        if sample["file_path"].split("/")[-2] == species_name:
+            count[sample["split"]] += 1
+    return count
