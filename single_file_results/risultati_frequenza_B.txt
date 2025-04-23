@@ -1,0 +1,142 @@
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 0.00 s, Fine: 3.00 s, Confidence: 0.2956
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 15.00 s, Fine: 18.00 s, Confidence: 0.2604
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 18.00 s, Fine: 21.00 s, Confidence: 0.2905
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 27.00 s, Fine: 30.00 s, Confidence: 0.3593
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 33.00 s, Fine: 36.00 s, Confidence: 0.1944
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 42.00 s, Fine: 45.00 s, Confidence: 0.1996
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 48.00 s, Fine: 51.00 s, Confidence: 0.1392
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 75.00 s, Fine: 78.00 s, Confidence: 0.1256
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 81.00 s, Fine: 84.00 s, Confidence: 0.1014
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 87.00 s, Fine: 90.00 s, Confidence: 0.1271
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 90.00 s, Fine: 93.00 s, Confidence: 0.1459
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 105.00 s, Fine: 108.00 s, Confidence: 0.2998
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 117.00 s, Fine: 120.00 s, Confidence: 0.2276
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 123.00 s, Fine: 126.00 s, Confidence: 0.3951
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 141.00 s, Fine: 144.00 s, Confidence: 0.1675
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 144.00 s, Fine: 147.00 s, Confidence: 0.1394
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 147.00 s, Fine: 150.00 s, Confidence: 0.1275
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 150.00 s, Fine: 153.00 s, Confidence: 0.1234
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 180.00 s, Fine: 183.00 s, Confidence: 0.1978
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 192.00 s, Fine: 195.00 s, Confidence: 0.1244
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 198.00 s, Fine: 201.00 s, Confidence: 0.1752
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 204.00 s, Fine: 207.00 s, Confidence: 0.2167
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 234.00 s, Fine: 237.00 s, Confidence: 0.1681
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 243.00 s, Fine: 246.00 s, Confidence: 0.2370
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 255.00 s, Fine: 258.00 s, Confidence: 0.1318
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 267.00 s, Fine: 270.00 s, Confidence: 0.1184
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 273.00 s, Fine: 276.00 s, Confidence: 0.1036
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 279.00 s, Fine: 282.00 s, Confidence: 0.2337
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 294.00 s, Fine: 297.00 s, Confidence: 0.1049
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 321.00 s, Fine: 324.00 s, Confidence: 0.2552
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 324.00 s, Fine: 327.00 s, Confidence: 0.3392
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 330.00 s, Fine: 333.00 s, Confidence: 0.1721
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 339.00 s, Fine: 342.00 s, Confidence: 0.2268
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 348.00 s, Fine: 351.00 s, Confidence: 0.1616
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 357.00 s, Fine: 360.00 s, Confidence: 0.1827
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 381.00 s, Fine: 384.00 s, Confidence: 0.3296
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 384.00 s, Fine: 387.00 s, Confidence: 0.2088
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 387.00 s, Fine: 390.00 s, Confidence: 0.1997
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 405.00 s, Fine: 408.00 s, Confidence: 0.4775
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 411.00 s, Fine: 414.00 s, Confidence: 0.1330
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 450.00 s, Fine: 453.00 s, Confidence: 0.1656
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 456.00 s, Fine: 459.00 s, Confidence: 0.2004
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 474.00 s, Fine: 477.00 s, Confidence: 0.4717
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 495.00 s, Fine: 498.00 s, Confidence: 0.1555
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 498.00 s, Fine: 501.00 s, Confidence: 0.1210
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 504.00 s, Fine: 507.00 s, Confidence: 0.1131
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 519.00 s, Fine: 522.00 s, Confidence: 0.1475
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 528.00 s, Fine: 531.00 s, Confidence: 0.2503
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 558.00 s, Fine: 561.00 s, Confidence: 0.5706
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 564.00 s, Fine: 567.00 s, Confidence: 0.3518
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 570.00 s, Fine: 573.00 s, Confidence: 0.2686
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 576.00 s, Fine: 579.00 s, Confidence: 0.2047
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 582.00 s, Fine: 585.00 s, Confidence: 0.1284
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 588.00 s, Fine: 591.00 s, Confidence: 0.4309
+Specie: Sylvia atricapilla_Eurasian Blackcap (Frequenza: 55), Inizio: 594.00 s, Fine: 597.00 s, Confidence: 0.1224
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 9.00 s, Fine: 12.00 s, Confidence: 0.1102
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 39.00 s, Fine: 42.00 s, Confidence: 0.2170
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 48.00 s, Fine: 51.00 s, Confidence: 0.2729
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 60.00 s, Fine: 63.00 s, Confidence: 0.1701
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 63.00 s, Fine: 66.00 s, Confidence: 0.1386
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 69.00 s, Fine: 72.00 s, Confidence: 0.1784
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 72.00 s, Fine: 75.00 s, Confidence: 0.2407
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 99.00 s, Fine: 102.00 s, Confidence: 0.2053
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 114.00 s, Fine: 117.00 s, Confidence: 0.1728
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 120.00 s, Fine: 123.00 s, Confidence: 0.2367
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 147.00 s, Fine: 150.00 s, Confidence: 0.1882
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 162.00 s, Fine: 165.00 s, Confidence: 0.2429
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 171.00 s, Fine: 174.00 s, Confidence: 0.1913
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 207.00 s, Fine: 210.00 s, Confidence: 0.1207
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 216.00 s, Fine: 219.00 s, Confidence: 0.1815
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 399.00 s, Fine: 402.00 s, Confidence: 0.2237
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 414.00 s, Fine: 417.00 s, Confidence: 0.1363
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 420.00 s, Fine: 423.00 s, Confidence: 0.1265
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 438.00 s, Fine: 441.00 s, Confidence: 0.1139
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 447.00 s, Fine: 450.00 s, Confidence: 0.2391
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 453.00 s, Fine: 456.00 s, Confidence: 0.1103
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 483.00 s, Fine: 486.00 s, Confidence: 0.1188
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 492.00 s, Fine: 495.00 s, Confidence: 0.1304
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 501.00 s, Fine: 504.00 s, Confidence: 0.1802
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 516.00 s, Fine: 519.00 s, Confidence: 0.1785
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 525.00 s, Fine: 528.00 s, Confidence: 0.1759
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 531.00 s, Fine: 534.00 s, Confidence: 0.1509
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 540.00 s, Fine: 543.00 s, Confidence: 0.2653
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 543.00 s, Fine: 546.00 s, Confidence: 0.1626
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 555.00 s, Fine: 558.00 s, Confidence: 0.1405
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 561.00 s, Fine: 564.00 s, Confidence: 0.1209
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 567.00 s, Fine: 570.00 s, Confidence: 0.1859
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 585.00 s, Fine: 588.00 s, Confidence: 0.1342
+Specie: Regulus regulus_Goldcrest (Frequenza: 34), Inizio: 594.00 s, Fine: 597.00 s, Confidence: 0.1363
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 6.00 s, Fine: 9.00 s, Confidence: 0.1006
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 18.00 s, Fine: 21.00 s, Confidence: 0.1828
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 24.00 s, Fine: 27.00 s, Confidence: 0.1000
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 57.00 s, Fine: 60.00 s, Confidence: 0.1010
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 105.00 s, Fine: 108.00 s, Confidence: 0.1161
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 141.00 s, Fine: 144.00 s, Confidence: 0.1000
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 144.00 s, Fine: 147.00 s, Confidence: 0.2420
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 174.00 s, Fine: 177.00 s, Confidence: 0.2047
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 204.00 s, Fine: 207.00 s, Confidence: 0.1231
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 213.00 s, Fine: 216.00 s, Confidence: 0.2037
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 219.00 s, Fine: 222.00 s, Confidence: 0.1918
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 225.00 s, Fine: 228.00 s, Confidence: 0.1166
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 234.00 s, Fine: 237.00 s, Confidence: 0.1760
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 273.00 s, Fine: 276.00 s, Confidence: 0.1720
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 321.00 s, Fine: 324.00 s, Confidence: 0.1354
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 324.00 s, Fine: 327.00 s, Confidence: 0.1503
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 330.00 s, Fine: 333.00 s, Confidence: 0.1867
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 333.00 s, Fine: 336.00 s, Confidence: 0.1631
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 396.00 s, Fine: 399.00 s, Confidence: 0.1179
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 495.00 s, Fine: 498.00 s, Confidence: 0.3103
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 519.00 s, Fine: 522.00 s, Confidence: 0.1557
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 528.00 s, Fine: 531.00 s, Confidence: 0.1004
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 558.00 s, Fine: 561.00 s, Confidence: 0.1197
+Specie: Troglodytes troglodytes_Eurasian Wren (Frequenza: 24), Inizio: 588.00 s, Fine: 591.00 s, Confidence: 0.1760
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 6.00 s, Fine: 9.00 s, Confidence: 0.1117
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 114.00 s, Fine: 117.00 s, Confidence: 0.1180
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 147.00 s, Fine: 150.00 s, Confidence: 0.1159
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 159.00 s, Fine: 162.00 s, Confidence: 0.1259
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 165.00 s, Fine: 168.00 s, Confidence: 0.1380
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 171.00 s, Fine: 174.00 s, Confidence: 0.2258
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 186.00 s, Fine: 189.00 s, Confidence: 0.1070
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 192.00 s, Fine: 195.00 s, Confidence: 0.1226
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 213.00 s, Fine: 216.00 s, Confidence: 0.2797
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 222.00 s, Fine: 225.00 s, Confidence: 0.1025
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 258.00 s, Fine: 261.00 s, Confidence: 0.1134
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 282.00 s, Fine: 285.00 s, Confidence: 0.1382
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 285.00 s, Fine: 288.00 s, Confidence: 0.5213
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 300.00 s, Fine: 303.00 s, Confidence: 0.1383
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 309.00 s, Fine: 312.00 s, Confidence: 0.1661
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 342.00 s, Fine: 345.00 s, Confidence: 0.1176
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 369.00 s, Fine: 372.00 s, Confidence: 0.1183
+Specie: Turdus philomelos_Song Thrush (Frequenza: 18), Inizio: 582.00 s, Fine: 585.00 s, Confidence: 0.1097
+Specie: Certhia familiaris_Eurasian Treecreeper (Frequenza: 4), Inizio: 12.00 s, Fine: 15.00 s, Confidence: 0.1088
+Specie: Certhia familiaris_Eurasian Treecreeper (Frequenza: 4), Inizio: 147.00 s, Fine: 150.00 s, Confidence: 0.1022
+Specie: Certhia familiaris_Eurasian Treecreeper (Frequenza: 4), Inizio: 309.00 s, Fine: 312.00 s, Confidence: 0.1280
+Specie: Certhia familiaris_Eurasian Treecreeper (Frequenza: 4), Inizio: 318.00 s, Fine: 321.00 s, Confidence: 0.1730
+Specie: None_ (Frequenza: 2), Inizio: 186.00 s, Fine: 189.00 s, Confidence: 0.2061
+Specie: None_ (Frequenza: 2), Inizio: 276.00 s, Fine: 279.00 s, Confidence: 0.1507
+Specie: Regulus ignicapilla_Common Firecrest (Frequenza: 1), Inizio: 48.00 s, Fine: 51.00 s, Confidence: 0.1135
+Specie: Muscicapa striata_Spotted Flycatcher (Frequenza: 1), Inizio: 159.00 s, Fine: 162.00 s, Confidence: 0.2727
+Specie: Lophophanes cristatus_Crested Tit (Frequenza: 1), Inizio: 186.00 s, Fine: 189.00 s, Confidence: 0.2308
+Specie: Turdus merula_Eurasian Blackbird (Frequenza: 1), Inizio: 327.00 s, Fine: 330.00 s, Confidence: 0.1258
+Specie: Turdus viscivorus_Mistle Thrush (Frequenza: 1), Inizio: 582.00 s, Fine: 585.00 s, Confidence: 0.2207

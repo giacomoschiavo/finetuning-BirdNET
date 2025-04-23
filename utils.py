@@ -7,13 +7,15 @@ from torch.utils.data import DataLoader, Dataset
 import importlib
 import json
 
-def get_mappings(test_path):
-    test_species = os.listdir(test_path) 
+def get_mappings(train_path, include_None=False):
+    train_species = os.listdir(train_path) 
     with open("utils/category_annots.json") as f:
         category_annots = json.load(f)
 
-    filtered_species = [species for species in category_annots.keys() if len(species.split("_")) > 1 and species in test_species]
+    filtered_species = [species for species in category_annots.keys() if species in train_species]
     mappings = {species: i for i, species in enumerate(filtered_species)}
+    if include_None:
+        mappings['None'] = len(filtered_species)
     return mappings
 
 def load_model_class(model_name):
@@ -112,12 +114,39 @@ def get_dataloader(dataset_config, split="train", batch_size=100, shuffle=True):
     return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
 
 
-def specs_generation(input_path, output_path, mappings):
-    sample_rate = 32000
-    target_samples = sample_rate * 3
+def generate_spectrogram(waveform, sample_rate=32000):
     n_fft = 1024
     hop_length = 256
     win_length = 1024
+    target_samples = sample_rate * 3
+
+    if waveform.shape[1] < target_samples:
+        pad_len = target_samples - waveform.shape[1]
+        waveform = F.pad(waveform, (0, pad_len))
+    else:
+        waveform = waveform[:, :target_samples]
+
+    waveform = waveform[0:1, :]  # mono
+
+    window = torch.hann_window(n_fft, device=waveform.device)
+    stft = torch.stft(
+        waveform,
+        n_fft=n_fft,
+        hop_length=hop_length,
+        win_length=win_length,
+        window=window,
+        return_complex=True
+    )
+    spectrogram = torch.abs(stft)
+    spectrogram = torch.log1p(spectrogram)
+
+    spectrogram = spectrogram.unsqueeze(0)  # (1, 1, freq, time)
+    spectrogram = F.interpolate(spectrogram, size=(256, 256), mode="bilinear", align_corners=False)
+    return spectrogram.squeeze(0).squeeze(0)  # [256, 256]
+
+
+def specs_generation(input_path, output_path, mappings):
+    sample_rate = 32000
 
     for species in os.listdir(input_path):
         if species not in mappings:
@@ -133,6 +162,7 @@ def specs_generation(input_path, output_path, mappings):
             save_path = os.path.join(output_species_path, f"{audio_name}.pt")
             if os.path.exists(save_path):
                 continue
+
             audio_path = os.path.join(species_path, audio)
             waveform, sr = torchaudio.load(audio_path)
 
@@ -140,34 +170,7 @@ def specs_generation(input_path, output_path, mappings):
                 resampler = torchaudio.transforms.Resample(orig_freq=sr, new_freq=sample_rate)
                 waveform = resampler(waveform)
 
-            if waveform.shape[1] < target_samples:
-                pad_len = target_samples - waveform.shape[1]
-                waveform = F.pad(waveform, (0, pad_len))
-            else:
-                waveform = waveform[:, :target_samples]
+            spec = generate_spectrogram(waveform, sample_rate)
+            torch.save(spec, save_path)
 
-            waveform = waveform[0:1, :]  # keep solo il primo canale
-
-            window = torch.hann_window(n_fft, device=waveform.device)
-
-            stft = torch.stft(
-                waveform,
-                n_fft=n_fft,
-                hop_length=hop_length,
-                win_length=win_length,
-                window=window,
-                return_complex=True
-            )
-            spectrogram = torch.abs(stft)  # shape: (freq, time)
-
-            # Optional log scaling or 
-            spectrogram = torch.log1p(spectrogram)
-            # spectrogram = (spectrogram - spectrogram.min()) / (spectrogram.max() - spectrogram.min())
-
-            # Resize to 256x256
-            spectrogram = spectrogram.unsqueeze(0) # (1, 1, freq, time)
-            spectrogram = F.interpolate(spectrogram, size=(256, 256), mode="bilinear", align_corners=False)
-            spectrogram = spectrogram.squeeze(0).squeeze(0)  # torna a (256, 256)
-
-            # Save the spectrogram tensor
-            torch.save(spectrogram, save_path)
+    return "✅ Spettrogrammi generati e salvati."
