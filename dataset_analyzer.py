@@ -5,15 +5,15 @@ from birdnetlib.batch import DirectoryAnalyzer
 import copy
 
 class BirdAnalyzer:
-    def __init__(self, model_name, dataset_path, min_conf=0.1):
+    def __init__(self, model_name, dataset_path, model_folder_path, clf_name="CustomClassifier", min_conf=0.1):
         self.model_name = model_name
         self.dataset_path = dataset_path
         self.min_conf = min_conf
         self.complete_pred_segments = {}
         
         # DA MODIFICARE QUI SOTTO
-        self.model_path = f"classifiers/official/{model_name}/CustomClassifier.tflite"
-        self.labels_path = f"classifiers/official/{model_name}/CustomClassifier_Labels.txt"
+        self.model_path = f"{model_folder_path}/{model_name}/{clf_name}.tflite"
+        self.labels_path = f"{model_folder_path}/{model_name}/{clf_name}_Labels.txt"
         
         self.test_path = os.path.join(dataset_path, 'test')
         self.valid_path = os.path.join(dataset_path, 'valid')
@@ -61,10 +61,8 @@ class BirdAnalyzer:
 
         if data_set_type == "valid":
             data_path = self.valid_path
-            output_filename = "valid_pred_segments.json"
         else:
             data_path = self.test_path
-            output_filename = "test_pred_segments.json"
 
         self.complete_pred_segments = {}
         
@@ -82,9 +80,5 @@ class BirdAnalyzer:
             batch.process()
 
         pred_segments = copy.deepcopy(self.complete_pred_segments)
-        output_path = f"classifiers/official/{self.model_name}/{output_filename}"
-        with open(output_path, "w") as f:
-            json.dump(pred_segments, f)
 
-        print(f"{data_set_type.capitalize()} predictions saved to: {output_path}")
         return pred_segments
