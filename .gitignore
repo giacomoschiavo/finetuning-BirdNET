@@ -12,3 +12,4 @@ utils/~$results_analysis.xlsx
 __pycache__
 classifiers/official/_legacy
 *.tflite
+finetuned
