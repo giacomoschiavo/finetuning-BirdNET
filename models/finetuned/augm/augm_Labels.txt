@@ -20,3 +20,4 @@ Turdus merula_Eurasian Blackbird
 Turdus philomelos_Song Thrush
 Vegetation
 Wind
+*.pth

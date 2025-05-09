@@ -213,6 +213,7 @@ def get_audio_category_annots(bird_tags_filepath, audio_source_path, species_dic
     bird_tags = scipy.io.loadmat(bird_tags_filepath)["Bird_tags"]
     category_annots = {}      # detections grouped by category
     audio_annots = {}         # detections grouped by audio
+    missing_file_name = set()
     for elem in bird_tags:
         tag = elem[0][0][0][0][0]
         scientific_name = tag.replace("_", " ")                 # Fringilla_coelebs -> Fringilla coelebs
@@ -223,22 +224,25 @@ def get_audio_category_annots(bird_tags_filepath, audio_source_path, species_dic
             label = scientific_name     # as they don't have a common name, we use the scientific name as label
 
         file_name = elem[0][0][0][1][0]                         
+        custom_name = file_name
+        if '-' in file_name:
+            file_name = file_name.split(' - ')[0] + '_0.WAV'
         file_path = os.path.join(audio_source_path, file_name)   # path to the audio file
+        if not os.path.exists(file_path):       # do not store if file does not exist
+            missing_file_name.add(custom_name) 
+            continue
 
         start_time, end_time = np.array(elem[0][0][0][2]).flatten()[-2:]
         duration = end_time - start_time
         
-        if not os.path.exists(file_path):       # do not store if file does not exist 
-            continue
         if label not in category_annots:
             category_annots[label] = []
         if file_name not in audio_annots:
             audio_annots[file_name] = []
-
         category_annots[label].append({ "file_name": file_name, "start_time": start_time, "duration": duration, "label": label  })
         audio_annots[file_name].append({ "scientific_name": scientific_name, "common_name": common_name, "start_time": start_time, "duration": duration, "label": label })
 
-    return category_annots, audio_annots
+    return category_annots, audio_annots, missing_file_name
 
 # store info about duration and sampling rate of the given audio
 def generate_audio_info(source_audio_path, audio_annots):
@@ -274,7 +278,7 @@ def generate_true_segments(audio_annots, audio_info):
         for annotation in all_annotations:
             start_time = annotation["start_time"]
             duration = annotation["duration"]
-            if duration < 0.5:
+            if duration < 0.8:          # <----------  FILTERS AUDIO LENGTH
                 continue
             species = annotation["label"]
 
