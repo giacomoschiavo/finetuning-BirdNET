@@ -12,4 +12,7 @@ utils/~$results_analysis.xlsx
 __pycache__
 classifiers/official/_legacy
 *.tflite
-finetuned
+*.BirdNET.selection.table.txt
+BirdNET_SelectionTable.list.txt
+BirdNET_analysis_params.csv
+*.npz
