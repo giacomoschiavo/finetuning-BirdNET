@@ -278,7 +278,7 @@ def generate_true_segments(audio_annots, audio_info):
         for annotation in all_annotations:
             start_time = annotation["start_time"]
             duration = annotation["duration"]
-            if duration < 0.8:          # <----------  FILTERS AUDIO LENGTH
+            if duration < 0.25:          # <----------  FILTERS AUDIO LENGTH
                 continue
             species = annotation["label"]
 
