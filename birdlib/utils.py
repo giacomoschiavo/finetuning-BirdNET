@@ -18,6 +18,13 @@ def get_mappings(train_path):
     mappings = {species: i for i, species in enumerate(filtered_species)}
     return mappings
 
+def load_or_generate_info(filename, annots, audio_source, save_path):
+    full_path = os.path.join(save_path, filename)
+    info = generate_audio_info(audio_source, annots)
+    with open(full_path, 'w') as f:
+        json.dump(info, f)
+    return info
+
 def load_model_class(model_name):
     model_module = importlib.import_module(f"models.{model_name}.model")
     model_class = getattr(model_module, model_name)
