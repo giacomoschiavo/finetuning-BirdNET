@@ -39,14 +39,16 @@ def main(args):
     utils_path = os.path.join(args.utils_path)
     os.makedirs(utils_path, exist_ok=True)
     print("Extracting audio info...")
-    audio_info = utils.load_or_generate_info(f"audio_info_{args.suffix}.json", audio_annots, args.source, utils_path)
+    # audio_info = utils.load_or_generate_info(f"audio_info_{args.suffix}.json", audio_annots, args.source, utils_path)
+    with open(f'/home/giacomoschiavo/finetuning-BirdNET/utils_1/audio_info_{args.suffix}.json') as f:
+        audio_info = json.load(f)
 
     true_segments = utils.generate_true_segments(audio_annots, audio_info)
     save_json(true_segments, os.path.join(args.utils_path, f"true_segments_{args.suffix}.json"))
     print(f"Saved true_segments_{args.suffix}.json to {args.utils_path}")
 
     print(f"Generating segments in {args.output}")
-    utils.generate_segments(args.source, f"{args.output}/train", true_segments, audio_info, generate_None=True)
+    utils.generate_segments(args.source, args.output, true_segments, audio_info, generate_None=True)
     print("Done!")
 
 
