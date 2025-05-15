@@ -338,3 +338,90 @@ def generate_segments(audio_source_path, target_path, true_segments, audio_info,
                 generate_species_segment(segment_audio, sp, target_path, basename, segm_id)
             progress_bar.update(1)
         progress_bar.close()
+
+def get_date_count(path, species_list):
+    dates_count = {}
+    for species in species_list:
+        species_audio = os.listdir(os.path.join(path, species))
+        dates_count.setdefault(species, {})
+        for audio in species_audio:
+            date = audio.split('_')[0]
+            if date not in dates_count[species]:
+                dates_count[species][date] = 0
+            dates_count[species][date] = dates_count[species][date] + 1
+    return dates_count
+
+def split_dataset(species_data, folder_source_path, test_ratio=0.2, random_seed=42):
+    """
+    Split the dataset into training and testing sets by moving 
+    exactly up to 20% of total examples to the test set.
+    
+    Args:
+    - species_data (dict): Dictionary with species as keys and 
+      day-level audio counts as values
+    - test_ratio (float): Proportion of examples to move to test set (default 0.2)
+    - random_seed (int): Random seed for reproducibility
+    
+    Returns:
+    - tuple: (train_dataset, test_dataset) with the same structure as input
+    """
+    random.seed(random_seed)
+    
+    # Prepare output dictionaries
+    train_dataset = {}
+    test_dataset = {}
+    
+    for species, day_counts in species_data.items():
+        # If only one day or very few examples, keep all in training
+        total_examples = sum(day_counts.values())
+        if len(day_counts) == 1:
+            train_dataset[species] = day_counts.copy()
+            test_dataset[species] = {}
+            continue
+        
+        # Calculate maximum number of examples to move to test set
+        max_test_examples = int(total_examples * test_ratio)
+        
+        # Prepare a list of days with their counts, sorted by count in descending order
+        # This helps us preferentially select days with more examples first
+        day_list = sorted(day_counts.items(), key=lambda x: x[1], reverse=True)
+        
+        # Initialize tracking variables
+        train_dataset[species] = {}
+        test_dataset[species] = {}
+        test_examples_count = len(os.listdir(os.path.join(folder_source_path, species)))
+        
+        # Distribute examples
+        for day, count in day_list:
+            # If adding this day would exceed max test examples, keep it in training
+            if test_examples_count + count > max_test_examples:
+                train_dataset[species][day] = count
+            else:
+                # Add to test set
+                test_dataset[species][day] = count
+                test_examples_count += count
+        
+        # If no examples were moved to test set, move some from the largest day
+        if test_examples_count == 0 and total_examples > 10:
+            smallest_day = list(day_counts.keys())[-1]
+            smallest_count = day_counts[smallest_day]
+            partial_count = max(1, int(smallest_count * test_ratio))
+            
+            test_dataset[species][smallest_day] = partial_count
+            train_dataset[species][smallest_day] = smallest_count - partial_count
+        
+        # Sanity check to ensure we've distributed all examples
+        assert sum(train_dataset[species].values()) + sum(test_dataset[species].values()) == total_examples
+    
+    return train_dataset, test_dataset
+
+def move_by_date(dates_division, source_path, dest_path):
+    for species in dates_division:
+        for audio in os.listdir(os.path.join(source_path, species)):
+            day = audio.split('_')[0]
+            if day in dates_division[species]:
+                print(audio)
+                os.rename(
+                    os.path.join(source_path, species, audio),
+                    os.path.join(dest_path, species, audio)
+                )
