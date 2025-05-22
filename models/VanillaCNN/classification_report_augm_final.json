@@ -1,0 +1,146 @@
+{
+    "Aeroplane": {
+        "precision": 0.14285714285714285,
+        "recall": 0.045454545454545456,
+        "f1-score": 0.06896551724137931,
+        "support": 22
+    },
+    "Muscicapa striata_Spotted Flycatcher": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 173
+    },
+    "Periparus ater_Coal Tit": {
+        "precision": 0.828125,
+        "recall": 0.24423963133640553,
+        "f1-score": 0.37722419928825623,
+        "support": 217
+    },
+    "Regulus regulus_Goldcrest": {
+        "precision": 0.3219178082191781,
+        "recall": 0.34558823529411764,
+        "f1-score": 0.3333333333333333,
+        "support": 136
+    },
+    "Anthus trivialis_Tree Pipit": {
+        "precision": 0.9285714285714286,
+        "recall": 0.8167539267015707,
+        "f1-score": 0.8690807799442897,
+        "support": 191
+    },
+    "Vegetation": {
+        "precision": 0.05612244897959184,
+        "recall": 0.2037037037037037,
+        "f1-score": 0.088,
+        "support": 54
+    },
+    "Troglodytes troglodytes_Eurasian Wren": {
+        "precision": 0.46956521739130436,
+        "recall": 0.2559241706161137,
+        "f1-score": 0.3312883435582822,
+        "support": 211
+    },
+    "Erithacus rubecula_European Robin": {
+        "precision": 0.765,
+        "recall": 0.2217391304347826,
+        "f1-score": 0.3438202247191011,
+        "support": 690
+    },
+    "None": {
+        "precision": 0.7949833631942667,
+        "recall": 0.6632500533845825,
+        "f1-score": 0.7231664726426077,
+        "support": 4683
+    },
+    "Parus major_Great Tit": {
+        "precision": 0.8076923076923077,
+        "recall": 0.4666666666666667,
+        "f1-score": 0.5915492957746479,
+        "support": 45
+    },
+    "Certhia familiaris_Eurasian Treecreeper": {
+        "precision": 0.8571428571428571,
+        "recall": 0.5454545454545454,
+        "f1-score": 0.6666666666666665,
+        "support": 110
+    },
+    "Phylloscopus collybita_Common Chiffchaff": {
+        "precision": 0.7170542635658915,
+        "recall": 0.27007299270072993,
+        "f1-score": 0.39236479321314954,
+        "support": 685
+    },
+    "Coccothraustes coccothraustes_Hawfinch": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 87
+    },
+    "Wind": {
+        "precision": 0.1012396694214876,
+        "recall": 0.5051546391752577,
+        "f1-score": 0.1686746987951807,
+        "support": 194
+    },
+    "Turdus merula_Eurasian Blackbird": {
+        "precision": 0.8205128205128205,
+        "recall": 0.09329446064139942,
+        "f1-score": 0.1675392670157068,
+        "support": 343
+    },
+    "Loxia curvirostra_Common Crossbill": {
+        "precision": 0.28125,
+        "recall": 0.5,
+        "f1-score": 0.36,
+        "support": 36
+    },
+    "Regulus ignicapilla_Common Firecrest": {
+        "precision": 0.8684931506849315,
+        "recall": 0.551304347826087,
+        "f1-score": 0.6744680851063829,
+        "support": 575
+    },
+    "Sylvia atricapilla_Eurasian Blackcap": {
+        "precision": 0.31925675675675674,
+        "recall": 0.378,
+        "f1-score": 0.34615384615384615,
+        "support": 500
+    },
+    "Lophophanes cristatus_Crested Tit": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 23
+    },
+    "Fringilla coelebs_Common Chaffinch": {
+        "precision": 0.4783861671469741,
+        "recall": 0.5630936227951153,
+        "f1-score": 0.5172951075101277,
+        "support": 1474
+    },
+    "micro avg": {
+        "precision": 0.5946458449525934,
+        "recall": 0.5101923629055412,
+        "f1-score": 0.5491913052436385,
+        "support": 10449
+    },
+    "macro avg": {
+        "precision": 0.477908520106847,
+        "recall": 0.33348473360928116,
+        "f1-score": 0.3509795315481479,
+        "support": 10449
+    },
+    "weighted avg": {
+        "precision": 0.6750902949800025,
+        "recall": 0.5101923629055412,
+        "f1-score": 0.5539708964962903,
+        "support": 10449
+    },
+    "samples avg": {
+        "precision": 0.5163788300835654,
+        "recall": 0.5188579387186629,
+        "f1-score": 0.5098410929831543,
+        "support": 10449
+    }
+}
