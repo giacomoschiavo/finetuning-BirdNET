@@ -1,0 +1,4 @@
+Metric,Value
+mAP (sample-wise),0.6279987144234127
+cmAP (class-wise),0.3675162439781686
+F0.5 Score,0.390095057294093

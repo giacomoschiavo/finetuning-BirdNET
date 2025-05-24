@@ -15,5 +15,4 @@ classifiers/official/_legacy
 *.BirdNET.selection.table.txt
 BirdNET_SelectionTable.list.txt
 BirdNET_analysis_params.csv
-*.npz
 *.pth
