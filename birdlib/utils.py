@@ -444,7 +444,7 @@ def create_dataset_config(train_path, valid_path, test_path, dataset_name, confi
     print("Saved new dataset config")
     return dataset_config
 
-def train_model(train_loader, valid_loader, model, model_name, dataset_var, epochs=200, lr=1e-4, patience=3, early_stop_patience=15, load_weights=False):
+def train_model(train_loader, valid_loader, model, model_name, dataset_var, epochs=200, lr=1e-4, patience=3, early_stop_patience=15):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     model.to(device)
@@ -458,10 +458,7 @@ def train_model(train_loader, valid_loader, model, model_name, dataset_var, epoc
     best_loss = float("inf")
 
     saving_path = f'models/{model_name}/{dataset_var}/checkpoint.pth'
-    if load_weights:
-        if not os.path.exists(saving_path):
-            print("No weights found!")
-            return None
+    if os.path.exists(saving_path):
         checkpoint = torch.load(saving_path)
         model.load_state_dict(checkpoint['model_state_dict'])
         optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
