@@ -365,8 +365,6 @@ def split_dataset(species_data, folder_source_path, test_ratio=0.2, random_seed=
     Returns:
     - tuple: (train_dataset, test_dataset) with the same structure as input
     """
-    random.seed(random_seed)
-    
     # Prepare output dictionaries
     train_dataset = {}
     test_dataset = {}
