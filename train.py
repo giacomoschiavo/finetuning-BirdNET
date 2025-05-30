@@ -3,10 +3,15 @@ import numpy as np
 import json
 import os
 from birdlib import utils
-from collections import defaultdict
+import argparse
 
 
-VM_ID = 1
+parser = argparse.ArgumentParser(description="Training script with configuration")
+parser.add_argument('--config', type=int,
+                    help='Config ID')
+args = parser.parse_args()
+
+VM_ID = args.config
 INPUT_SHAPE = (256, 256)
 
 config_file = f'/home/giacomoschiavo/finetuning-BirdNET/configs/configs_{VM_ID}.json'
