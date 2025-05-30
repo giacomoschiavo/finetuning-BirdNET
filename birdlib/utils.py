@@ -2,8 +2,9 @@ import os
 import torchaudio
 import torch
 import torch.nn.functional as F
-import random
+import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset
+import torch.optim as optim
 import importlib
 import json
 import scipy
@@ -423,3 +424,117 @@ def move_by_date(dates_division, source_path, dest_path):
                     os.path.join(source_path, species, audio),
                     os.path.join(dest_path, species, audio)
                 )
+
+def create_dataset_config(train_path, valid_path, test_path, dataset_name, config_file_name='dataset_config.json'):
+    saving_path = f"utils/{dataset_name}/{config_file_name}"
+    if os.path.exists(saving_path):
+        print("Dataset config already created!")
+        with open(saving_path) as f:
+            return json.load(f)
+
+    mappings = get_mappings(train_path)
+    samples = collect_samples(train_path, valid_path, test_path, mappings)
+
+    dataset_config = {
+        "mappings": mappings,
+        "samples": samples
+    }
+    with open(saving_path, "w") as f:
+        json.dump(dataset_config, f)
+    print("Saved new dataset config")
+    return dataset_config
+
+def train_model(train_loader, valid_loader, model, model_name, dataset_var, epochs=200, lr=1e-4, patience=3, early_stop_patience=15, load_weights=False):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    model.to(device)
+    criterion = nn.BCEWithLogitsLoss()
+    optimizer = optim.Adam(model.parameters(), lr=lr)
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer, mode="min", factor=0.5, patience=patience
+    )
+    history_loss = []
+    history_valid_loss = []
+    best_loss = float("inf")
+
+    saving_path = f'models/{model_name}/{dataset_var}/checkpoint.pth'
+    if load_weights:
+        if not os.path.exists(saving_path):
+            print("No weights found!")
+            return None
+        checkpoint = torch.load(saving_path)
+        model.load_state_dict(checkpoint['model_state_dict'])
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+        history_loss = checkpoint['history_loss']
+        history_valid_loss = checkpoint['history_valid_loss']
+        best_loss = checkpoint['best_loss']
+        print(f"Model Loaded!")
+            
+    print(f"Training #{dataset_var} started!")
+    model.train()
+    early_stop_counter = 0
+    for epoch in range(epochs):
+        model.train()
+        running_loss = 0.0
+
+        for batch_index, (mel_spec, labels, _) in enumerate(train_loader):
+            mel_spec = mel_spec.to(device)
+            labels = labels.to(device)
+            optimizer.zero_grad()
+            outputs = model(mel_spec)
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+
+            running_loss += loss.item()
+            
+        train_loss = running_loss / len(train_loader)
+        print(f"Epoch {epoch + 1} - Train Loss: {train_loss:.5f}")
+
+        # Validation phase
+        model.eval()
+        with torch.no_grad():
+            valid_loss = 0.0
+            for mel_spec, labels, _ in valid_loader:
+                mel_spec = mel_spec.to(device)
+                labels = labels.to(device)
+                outputs = model(mel_spec)
+                loss = criterion(outputs, labels)
+                valid_loss += loss.item()
+
+            valid_loss /= len(valid_loader)
+        scheduler.step(valid_loss)
+        
+        if valid_loss < best_loss:
+            best_loss = valid_loss
+            early_stop_counter = 0
+            history_loss.append(train_loss)
+            history_valid_loss.append(valid_loss)
+            print(f"💾 Saving improved model at epoch {epoch+1} with Valid loss={valid_loss:.5f}")
+            torch.save({
+                'model_state_dict': model.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'scheduler_state_dict': scheduler.state_dict(),
+                'history_valid_loss': history_valid_loss,
+                'history_loss': history_loss,
+                'best_loss': best_loss,
+            }, saving_path)
+        else:
+            early_stop_counter += 1
+            print(f"🛑 No improvement — early stop counter: {early_stop_counter}/{early_stop_patience}")
+
+        print(f"🔁 Epoch {epoch+1} completed - valid loss: {valid_loss:.7f} - LR: {optimizer.param_groups[0]['lr']:.1e}")
+
+        if early_stop_counter >= early_stop_patience:
+            print(f"\n🚨 Early stopping triggered after {early_stop_patience} epochs without improvement.")
+            break
+
+        np.save(f'models/{model_name}/{dataset_var}/history_loss.npy', history_loss)
+        np.save(f'models/{model_name}/{dataset_var}/history_valid_loss.npy', history_valid_loss)
+
+    torch.save(model.state_dict(), f"models/{model_name}/{dataset_var}/final_weights.pth")
+    print("✅ Training completed")
+
+
+    return model
