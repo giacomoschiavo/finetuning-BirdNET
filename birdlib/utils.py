@@ -535,3 +535,4 @@ def train_model(train_loader, valid_loader, model, model_name, dataset_var, epoc
 
 
     return model
+

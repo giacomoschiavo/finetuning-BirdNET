@@ -68,4 +68,4 @@ for i, config in enumerate(sorted_configs):
         prev_batch_size = batch_size
 
     print(f"\n🔁 Training with config: {config}")
-    trained_model = utils.train_model(train_loader, valid_loader, model, MODEL_NAME, i)
+    trained_model = utils.train_model(train_loader, valid_loader, model, MODEL_NAME, f"configs_{VM_ID}/{i}")
