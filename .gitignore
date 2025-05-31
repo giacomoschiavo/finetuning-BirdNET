@@ -16,3 +16,5 @@ classifiers/official/_legacy
 BirdNET_SelectionTable.list.txt
 BirdNET_analysis_params.csv
 *.pth
+history_loss.npy
+history_valid_loss.npy
