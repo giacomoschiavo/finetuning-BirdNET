@@ -49,7 +49,7 @@ sorted_configs = sorted(configs, key=lambda x: x['batch_size'])
 for i, config in enumerate(sorted_configs):
     print(f"\n🔁 Processing config {i + 1}/{len(sorted_configs)}")
     print(f"Config: {config}")
-    os.makedirs(f'models/{MODEL_NAME}/{i}', exist_ok=True)
+    os.makedirs(f'models/{MODEL_NAME}/config_{VM_ID}/{i}', exist_ok=True)
     batch_size = config['batch_size']
     model = model_class(INPUT_SHAPE, config, len(mappings))
 
@@ -68,4 +68,4 @@ for i, config in enumerate(sorted_configs):
         prev_batch_size = batch_size
 
     print(f"\n🔁 Training with config: {config}")
-    trained_model = utils.train_model(train_loader, valid_loader, model, MODEL_NAME, f"configs_{VM_ID}/{i}")
+    trained_model = utils.train_model(train_loader, valid_loader, model, MODEL_NAME, f"config_{VM_ID}/{i}")
