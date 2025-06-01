@@ -18,3 +18,4 @@ BirdNET_analysis_params.csv
 *.pth
 history_loss.npy
 history_valid_loss.npy
+utils/dataset/dataset_config_custom.json
