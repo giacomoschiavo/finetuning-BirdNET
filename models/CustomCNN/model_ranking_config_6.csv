@@ -1,0 +1,21 @@
+model_id,config,micro_f1,weighted_f1,samples_f1,mean_f1
+19,"{'num_conv_layers': 4, 'kernel_sizes': [4, 5, 6, 6], 'channels': [16, 32, 64, 128], 'batch_size': 128, 'dropout': 0.0, 'dense_hidden': 128}",0.5010358094110684,0.5255455639688111,0.4543055702543478,0.4936289812114092
+1,"{'num_conv_layers': 4, 'kernel_sizes': [2, 3, 5, 6], 'channels': [16, 32, 64, 128], 'batch_size': 32, 'dropout': 0.5, 'dense_hidden': 128}",0.5076694197917201,0.5240348051010234,0.4491268917345751,0.49361037220910625
+4,"{'num_conv_layers': 2, 'kernel_sizes': [4, 6], 'channels': [16, 32], 'batch_size': 64, 'dropout': 0.0, 'dense_hidden': 64}",0.466959156904428,0.5158246969864687,0.4476578524308443,0.47681390210724706
+5,"{'num_conv_layers': 4, 'kernel_sizes': [3, 4, 6, 6], 'channels': [16, 32, 64, 128], 'batch_size': 64, 'dropout': 0.0, 'dense_hidden': 64}",0.4808373255571756,0.497267286207429,0.429577833885168,0.4692274818832575
+2,"{'num_conv_layers': 4, 'kernel_sizes': [3, 3, 5, 5], 'channels': [16, 32, 64, 128], 'batch_size': 32, 'dropout': 0.5, 'dense_hidden': 128}",0.48048568950563747,0.4932646603097229,0.4311007967585383,0.4682837155246329
+17,"{'num_conv_layers': 4, 'kernel_sizes': [3, 5, 5, 6], 'channels': [16, 32, 64, 128], 'batch_size': 128, 'dropout': 0.0, 'dense_hidden': 64}",0.46245671587388376,0.505996592182486,0.43128625352141065,0.4665798538592601
+7,"{'num_conv_layers': 4, 'kernel_sizes': [2, 5, 6, 6], 'channels': [16, 32, 64, 128], 'batch_size': 64, 'dropout': 0.5, 'dense_hidden': 64}",0.4650938389540213,0.4917458818796159,0.42532543126256744,0.4607217173654015
+12,"{'num_conv_layers': 3, 'kernel_sizes': [3, 4, 6], 'channels': [16, 32, 64], 'batch_size': 128, 'dropout': 0.0, 'dense_hidden': 128}",0.44312740031292963,0.48290224087558853,0.4122557690660135,0.4460951367515105
+0,"{'num_conv_layers': 3, 'kernel_sizes': [2, 3, 4], 'channels': [16, 32, 64], 'batch_size': 32, 'dropout': 0.5, 'dense_hidden': 64}",0.4425317924665152,0.48961272777401627,0.39547545973622805,0.44253999332558647
+11,"{'num_conv_layers': 3, 'kernel_sizes': [2, 4, 5], 'channels': [16, 32, 64], 'batch_size': 128, 'dropout': 0.5, 'dense_hidden': 64}",0.43675757863727077,0.4778523593546705,0.4123953655967625,0.4423351011962346
+6,"{'num_conv_layers': 2, 'kernel_sizes': [2, 3], 'channels': [16, 32], 'batch_size': 64, 'dropout': 0.5, 'dense_hidden': 128}",0.41878686900526857,0.4624198642473652,0.40727313043960306,0.42949328789741226
+9,"{'num_conv_layers': 2, 'kernel_sizes': [3, 4], 'channels': [16, 32], 'batch_size': 64, 'dropout': 0.0, 'dense_hidden': 64}",0.40320743541847004,0.4472341693462444,0.3885329261347888,0.41299151029983444
+8,"{'num_conv_layers': 4, 'kernel_sizes': [3, 4, 4, 4], 'channels': [16, 32, 64, 128], 'batch_size': 64, 'dropout': 0.5, 'dense_hidden': 32}",0.4158008435346157,0.4426163428137529,0.37226867040603945,0.41022861891813606
+3,"{'num_conv_layers': 1, 'kernel_sizes': [4], 'channels': [16], 'batch_size': 32, 'dropout': 0.0, 'dense_hidden': 64}",0.38879382386883676,0.43376529608582365,0.4073048798310731,0.40995466659524454
+16,"{'num_conv_layers': 3, 'kernel_sizes': [4, 5, 6], 'channels': [16, 32, 64], 'batch_size': 128, 'dropout': 0.5, 'dense_hidden': 32}",0.3851156422668818,0.4296125535956822,0.33305464423043,0.382594280030998
+10,"{'num_conv_layers': 1, 'kernel_sizes': [3], 'channels': [16], 'batch_size': 128, 'dropout': 0.0, 'dense_hidden': 128}",0.3692280023380244,0.4139316608392801,0.3600806837710214,0.38108011564944205
+13,"{'num_conv_layers': 4, 'kernel_sizes': [2, 3, 4, 5], 'channels': [16, 32, 64, 128], 'batch_size': 128, 'dropout': 0.5, 'dense_hidden': 32}",0.3854725546842757,0.41557302518416567,0.32678539931159256,0.3759436597266779
+18,"{'num_conv_layers': 4, 'kernel_sizes': [2, 2, 2, 6], 'channels': [16, 32, 64, 128], 'batch_size': 128, 'dropout': 0.0, 'dense_hidden': 32}",0.3240670413691833,0.3470683121788411,0.2606856860640329,0.3106070132040191
+14,"{'num_conv_layers': 4, 'kernel_sizes': [3, 3, 4, 6], 'channels': [16, 32, 64, 128], 'batch_size': 128, 'dropout': 0.0, 'dense_hidden': 32}",0.3019306015393215,0.35459300340981204,0.26976517209346085,0.3087629256808648
+15,"{'num_conv_layers': 3, 'kernel_sizes': [3, 5, 6], 'channels': [16, 32, 64], 'batch_size': 128, 'dropout': 0.5, 'dense_hidden': 32}",0.26701335066753334,0.2622690744197389,0.20322936667523395,0.24417059725416876
