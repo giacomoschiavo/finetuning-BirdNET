@@ -45,13 +45,14 @@ def collect_samples(train_path, valid_path, test_path, mappings):
         if species not in mappings:
             continue
         audio_list = os.listdir(os.path.join(train_path, species))
+        thresh_audio = audio_list[:int(len(audio_list) * 0.025)]
         for audio in audio_list:
             if audio in samples_train:      # same audio in different folders, save the other species
                 samples_train[audio]["labels"].append(mappings[species])
                 continue                    # do not save another sample of the same audio
             samples_train[audio] = {
                 "file_path": os.path.join(train_path, species, audio),
-                "split": "train",
+                "split": "thresh" if audio in thresh_audio else "train",
                 "labels": [mappings[species]]
             }
 
@@ -60,7 +61,8 @@ def collect_samples(train_path, valid_path, test_path, mappings):
     for species in os.listdir(valid_path):
         if species not in mappings:
             continue
-        for audio in os.listdir(os.path.join(valid_path, species)):
+        audio_list = os.listdir(os.path.join(valid_path, species))
+        for audio in audio_list:
             labels = [mappings[species]]
             updated = False
             if audio in samples_valid:       # adds label

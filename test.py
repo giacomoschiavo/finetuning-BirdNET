@@ -32,14 +32,14 @@ TRAIN_PATH = f"{DATASET_PATH}/train"
 TEST_PATH = f"{DATASET_PATH}/test"
 MODEL_PATH = f'./models/{MODEL_NAME}'
 
-with open(f"./utils/{DATASET_NAME}/dataset_config_{DATASET_VAR}.json") as f:
+with open(f"./utils/{DATASET_NAME}/dataset_config_{DATASET_VAR}_1.json") as f:
     dataset_config = json.load(f)
 
 mappings = dataset_config["mappings"]
 inverse_mappings = {value: key for key, value in mappings.items()}
 
-print("🔃 Loading test and validation set...")
-test_loader = utils.get_dataloader(dataset_config, split="test", batch_size=1, shuffle=False)
+print("🔃 Loading thresholds and validation set...")
+tresh_loader = utils.get_dataloader(dataset_config, split="thresh", batch_size=1)
 valid_loader = utils.get_dataloader(dataset_config, split="valid", batch_size=1)
 print("✌ Loaded!")
 
@@ -60,10 +60,10 @@ for i, config in enumerate(sorted_configs):
     checkpoint = torch.load(saving_path)
     model.load_state_dict(checkpoint['model_state_dict'])
 
-    conf_scores = test_utils.calculate_conf_scores(valid_loader, model, dataset_config["mappings"])
+    conf_scores = test_utils.calculate_conf_scores(tresh_loader, model, dataset_config["mappings"])
     best_thresholds = test_utils.compute_best_thresholds(conf_scores)
 
-    avg_loss, test_pred_segments = test_utils.test_model(model, dataset_config, test_loader, inverse_mappings, thresholds=best_thresholds)
+    avg_loss, test_pred_segments = test_utils.test_model(model, dataset_config, valid_loader, inverse_mappings, thresholds=best_thresholds)
     true_segments = test_utils.get_true_segments(TEST_PATH)
     pred_segments, pred_proba = test_utils.get_pred_proba_segments(test_pred_segments)
     pred_segments, pred_proba = test_utils.fill_pred_segments(true_segments, pred_segments, pred_proba)
@@ -74,7 +74,7 @@ for i, config in enumerate(sorted_configs):
     report = classification_report(y_true, y_pred, target_names=mlb.classes_, zero_division=0, output_dict=True)
     torch.cuda.empty_cache()
 
-    with open(f"{MODEL_PATH}/config_{VM_ID}/{i}/test_pred_segments.json", "w") as f:
+    with open(f"{MODEL_PATH}/config_{VM_ID}/{i}/test_pred_segments_1.json", "w") as f:
         json.dump(test_pred_segments, f)
 
     micro_f1 = report['micro avg']['f1-score']
@@ -95,10 +95,10 @@ for i, config in enumerate(sorted_configs):
     })
 
 results_summary = sorted(results_summary, key=lambda x: x['mean_f1'], reverse=True)
-with open(f'{MODEL_PATH}/model_ranking_config_{VM_ID}.json', 'w') as f:
+with open(f'{MODEL_PATH}/model_ranking_config_{VM_ID}_1.json', 'w') as f:
     json.dump(results_summary, f, indent=4)
 
 df = pd.DataFrame(results_summary)
-df.to_csv(f'{MODEL_PATH}/model_ranking_config_{VM_ID}.csv', index=False)
+df.to_csv(f'{MODEL_PATH}/model_ranking_config_{VM_ID}_1.csv', index=False)
 
 print("Saved model rankings!")
