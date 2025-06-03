@@ -28,7 +28,7 @@ VALID_PATH = f"{DATASET_PATH}/valid"
 TEST_PATH = f"{DATASET_PATH}/test"
 MODEL_PATH = f'./models/{MODEL_NAME}'
 
-dataset_config = utils.create_dataset_config(TRAIN_PATH, VALID_PATH, TEST_PATH, DATASET_NAME, f'dataset_config_{DATASET_VAR}.json')
+dataset_config = utils.create_dataset_config(TRAIN_PATH, VALID_PATH, TEST_PATH, DATASET_NAME, f'dataset_config_{DATASET_VAR}_1.json')
 mappings = dataset_config["mappings"]
 
 SPECS_TRAIN_PATH = f"{DATASET_PATH}/train_specs"
@@ -49,7 +49,7 @@ sorted_configs = sorted(configs, key=lambda x: x['batch_size'])
 for i, config in enumerate(sorted_configs):
     print(f"\n🔁 Processing config {i + 1}/{len(sorted_configs)}")
     print(f"Config: {config}")
-    os.makedirs(f'models/{MODEL_NAME}/config_{VM_ID}/{i}', exist_ok=True)
+    os.makedirs(f'models/{MODEL_NAME}/config_{VM_ID}/{i}_1', exist_ok=True)
     batch_size = config['batch_size']
     model = model_class(INPUT_SHAPE, config, len(mappings))
 
@@ -61,11 +61,14 @@ for i, config in enumerate(sorted_configs):
         import gc
         gc.collect()  
 
-        train_loader = utils.get_dataloader(dataset_config, split="train", batch_size=batch_size)
-        valid_loader = utils.get_dataloader(dataset_config, split="valid", batch_size=batch_size)
-        test_loader = utils.get_dataloader(dataset_config, split="test", batch_size=1)
+        train_loader, valid_loader = utils.get_dataloader(
+            dataset_config, 
+            split="train", 
+            batch_size=batch_size, 
+            split_ratio=0.15  
+        )
 
         prev_batch_size = batch_size
 
     print(f"\n🔁 Training with config: {config}")
-    trained_model = utils.train_model(train_loader, valid_loader, model, MODEL_NAME, f"config_{VM_ID}/{i}")
+    trained_model = utils.train_model(train_loader, valid_loader, model, MODEL_NAME, f"config_{VM_ID}/{i}_1")

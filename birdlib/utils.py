@@ -139,8 +139,25 @@ class CachedAudioDataset(Dataset):
         return self.cache[idx]
 
 
-def get_dataloader(dataset_config, split="train", batch_size=100, shuffle=True):
+# def get_dataloader(dataset_config, split="train", batch_size=100, shuffle=True):
+#     dataset = CachedAudioDataset(dataset_config=dataset_config, split=split)
+#     return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
+from torch.utils.data import random_split, DataLoader
+
+def get_dataloader(dataset_config, split="train", batch_size=100, shuffle=True, split_ratio=None):
+    g = torch.Generator().manual_seed(42)
+
     dataset = CachedAudioDataset(dataset_config=dataset_config, split=split)
+
+    if split_ratio is not None and split == "train":
+        val_size = int(split_ratio * len(dataset))
+        train_size = len(dataset) - val_size
+        train_dataset, val_dataset = random_split(dataset, [train_size, val_size], generator=g)
+
+        train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=shuffle)
+        val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+        return train_loader, val_loader
+
     return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
 
 
