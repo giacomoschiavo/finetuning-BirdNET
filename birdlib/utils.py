@@ -463,7 +463,7 @@ def create_dataset_config(train_path, valid_path, test_path, dataset_name, confi
     print("Saved new dataset config")
     return dataset_config
 
-def train_model(train_loader, valid_loader, model, model_name, dataset_var, epochs=200, lr=1e-4, patience=3, early_stop_patience=15):
+def train_model(train_loader, valid_loader, model, model_name, dataset_var, epochs=200, lr=1e-4, patience=3, early_stop_patience=10):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     model.to(device)
@@ -521,7 +521,7 @@ def train_model(train_loader, valid_loader, model, model_name, dataset_var, epoc
 
             valid_loss /= len(valid_loader)
         scheduler.step(valid_loss)
-        
+        print(dataset_var)
         if valid_loss < best_loss:
             best_loss = valid_loss
             early_stop_counter = 0

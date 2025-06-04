@@ -42,7 +42,7 @@ utils.specs_generation(VALID_PATH, SPECS_VALID_PATH, dataset_config['mappings'])
 utils.specs_generation(TEST_PATH, SPECS_TEST_PATH, dataset_config['mappings'])
 
 prev_batch_size = None
-train_loader = valid_loader = test_loader = None
+train_loader = valid_loader = None
 
 model_class = utils.load_model_class(MODEL_NAME)
 sorted_configs = sorted(configs, key=lambda x: x['batch_size'])
@@ -56,7 +56,7 @@ for i, config in enumerate(sorted_configs):
     if batch_size != prev_batch_size:
         print(f"\n🔁 Switching to batch_size={batch_size}")
 
-        del train_loader, valid_loader, test_loader
+        del train_loader, valid_loader
         torch.cuda.empty_cache()  
         import gc
         gc.collect()  
