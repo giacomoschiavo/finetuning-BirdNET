@@ -32,7 +32,7 @@ class CustomCNN(nn.Module):
 
         for conv in self.convs:
             x = self.pool(self.relu(conv(x)))
-
+        # print("Shape before flatten: ", x.shape)
         x = x.view(x.size(0), -1)
         x = self.dropout(x)
         x = self.relu(self.fc1(x))
