@@ -56,7 +56,7 @@ for i, config in enumerate(sorted_configs):
     print(f"🧪 Testing model #{i}...")
     model = model_class(INPUT_SHAPE, config, len(mappings))
     model.to(device)
-    saving_path = f'{MODEL_PATH}/config_{VM_ID}/{i}/checkpoint.pth'
+    saving_path = f'{MODEL_PATH}/config_{VM_ID}/{i}_1/checkpoint.pth'
     checkpoint = torch.load(saving_path)
     model.load_state_dict(checkpoint['model_state_dict'])
 
@@ -70,11 +70,11 @@ for i, config in enumerate(sorted_configs):
     
     y_true, y_pred, y_pred_proba = test_utils.binarize_test_segments(mlb, true_segments, pred_segments, pred_proba)
 
-    np.savez(f'{MODEL_PATH}/config_{VM_ID}/{i}/results.npz', y_true=y_true, y_pred=y_pred, y_pred_proba=y_pred_proba, class_names=mlb.classes_)
+    np.savez(f'{MODEL_PATH}/config_{VM_ID}/{i}_1/results.npz', y_true=y_true, y_pred=y_pred, y_pred_proba=y_pred_proba, class_names=mlb.classes_)
     report = classification_report(y_true, y_pred, target_names=mlb.classes_, zero_division=0, output_dict=True)
     torch.cuda.empty_cache()
 
-    with open(f"{MODEL_PATH}/config_{VM_ID}/{i}/test_pred_segments_1.json", "w") as f:
+    with open(f"{MODEL_PATH}/config_{VM_ID}/{i}_1/test_pred_segments.json", "w") as f:
         json.dump(test_pred_segments, f)
 
     micro_f1 = report['micro avg']['f1-score']
@@ -95,10 +95,7 @@ for i, config in enumerate(sorted_configs):
     })
 
 results_summary = sorted(results_summary, key=lambda x: x['mean_f1'], reverse=True)
-with open(f'{MODEL_PATH}/model_ranking_config_{VM_ID}_1.json', 'w') as f:
+with open(f'{MODEL_PATH}/model_ranking_config_{VM_ID}_0.json', 'w') as f:
     json.dump(results_summary, f, indent=4)
-
-df = pd.DataFrame(results_summary)
-df.to_csv(f'{MODEL_PATH}/model_ranking_config_{VM_ID}_1.csv', index=False)
 
 print("Saved model rankings!")
