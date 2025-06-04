@@ -19,3 +19,8 @@ BirdNET_analysis_params.csv
 history_loss.npy
 history_valid_loss.npy
 utils/dataset/dataset_config_custom.json
+_unused
+models/CustomCNN/config_1/**
+models/CustomCNN/config_1/6/results.npz
+models/CustomCNN/config_*/**
+models/CustomCNN/config_*/**/results.npz
