@@ -14,12 +14,12 @@ to get everything set up.
 ## Pipeline Overview
 
 1. `01_segments_extraction.ipynb` – Extracts raw audio segments
-2. `02_data_preprocessing.ipynb` – Converts segments to spectrograms
+2. `02_data_preprocessing.ipynb` – Setup for training, validation and test set
 3. `03_data_augmentation.ipynb` – Applies data augmentation
 4. `04_custom_model_training.ipynb` – Trains CNN model
-5. `05_custom_model_testing.ipynb` – Evaluates models on test data
+5. `05_custom_model_testing.ipynb` – Evaluates CNN models on test data
 6. `05_birdnet_model_testing.ipynb` – Train and evaluate fine-tuned BirdNET models on test data
 7. `06_model_evaluation_metrics.ipynb` – Generates metrics and plots
-8. `07_best_model_selection.ipynb` – Compares models and picks best
+8. `07_best_model_selection.ipynb` – Compares CNN models and picks best
 
 
