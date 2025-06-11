@@ -1,0 +1,21 @@
+None
+Fringilla coelebs_Common Chaffinch
+Phylloscopus collybita_Common Chiffchaff
+Regulus ignicapilla_Common Firecrest
+Erithacus rubecula_European Robin
+Sylvia atricapilla_Eurasian Blackcap
+Turdus merula_Eurasian Blackbird
+Periparus ater_Coal Tit
+Troglodytes troglodytes_Eurasian Wren
+Wind
+Muscicapa striata_Spotted Flycatcher
+Anthus trivialis_Tree Pipit
+Regulus regulus_Goldcrest
+Certhia familiaris_Eurasian Treecreeper
+Coccothraustes coccothraustes_Hawfinch
+Vegetation
+Loxia curvirostra_Common Crossbill
+Lophophanes cristatus_Crested Tit
+Aeroplane
+Parus major_Great Tit
+Cuculus canorus_Common Cuckoo

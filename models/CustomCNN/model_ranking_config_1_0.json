@@ -1,0 +1,444 @@
+[
+    {
+        "model_id": 10,
+        "config": {
+            "num_conv_layers": 4,
+            "kernel_sizes": [
+                2,
+                2,
+                4,
+                4
+            ],
+            "channels": [
+                16,
+                32,
+                64,
+                128
+            ],
+            "batch_size": 64,
+            "dropout": 0.0,
+            "dense_hidden": 128
+        },
+        "micro_f1": 0.01645777946575516,
+        "weighted_f1": 0.02951226817252546,
+        "samples_f1": 0.006407832872861227,
+        "mean_f1": 0.01745929350371395
+    },
+    {
+        "model_id": 6,
+        "config": {
+            "num_conv_layers": 4,
+            "kernel_sizes": [
+                2,
+                4,
+                6,
+                6
+            ],
+            "channels": [
+                16,
+                32,
+                64,
+                128
+            ],
+            "batch_size": 32,
+            "dropout": 0.5,
+            "dense_hidden": 64
+        },
+        "micro_f1": 0.015852360108837102,
+        "weighted_f1": 0.030064269633136194,
+        "samples_f1": 0.006451456545974504,
+        "mean_f1": 0.017456028762649265
+    },
+    {
+        "model_id": 9,
+        "config": {
+            "num_conv_layers": 4,
+            "kernel_sizes": [
+                2,
+                3,
+                4,
+                6
+            ],
+            "channels": [
+                16,
+                32,
+                64,
+                128
+            ],
+            "batch_size": 64,
+            "dropout": 0.0,
+            "dense_hidden": 64
+        },
+        "micro_f1": 0.01632014308070646,
+        "weighted_f1": 0.027160251196529574,
+        "samples_f1": 0.006451456545974504,
+        "mean_f1": 0.01664395027440351
+    },
+    {
+        "model_id": 19,
+        "config": {
+            "num_conv_layers": 4,
+            "kernel_sizes": [
+                3,
+                5,
+                5,
+                5
+            ],
+            "channels": [
+                16,
+                32,
+                64,
+                128
+            ],
+            "batch_size": 128,
+            "dropout": 0.5,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.015715276172868036,
+        "weighted_f1": 0.027696976596944166,
+        "samples_f1": 0.006412679947651592,
+        "mean_f1": 0.016608310905821263
+    },
+    {
+        "model_id": 18,
+        "config": {
+            "num_conv_layers": 3,
+            "kernel_sizes": [
+                2,
+                4,
+                6
+            ],
+            "channels": [
+                16,
+                32,
+                64
+            ],
+            "batch_size": 128,
+            "dropout": 0.0,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.014199206514930047,
+        "weighted_f1": 0.02644984778398152,
+        "samples_f1": 0.005671077504725898,
+        "mean_f1": 0.015440043934545821
+    },
+    {
+        "model_id": 1,
+        "config": {
+            "num_conv_layers": 3,
+            "kernel_sizes": [
+                2,
+                4,
+                4
+            ],
+            "channels": [
+                16,
+                32,
+                64
+            ],
+            "batch_size": 32,
+            "dropout": 0.0,
+            "dense_hidden": 64
+        },
+        "micro_f1": 0.014642262895174708,
+        "weighted_f1": 0.024657407871026455,
+        "samples_f1": 0.00587950172071155,
+        "mean_f1": 0.015059724162304238
+    },
+    {
+        "model_id": 12,
+        "config": {
+            "num_conv_layers": 3,
+            "kernel_sizes": [
+                2,
+                4,
+                4
+            ],
+            "channels": [
+                16,
+                32,
+                64
+            ],
+            "batch_size": 128,
+            "dropout": 0.5,
+            "dense_hidden": 128
+        },
+        "micro_f1": 0.014017683847315074,
+        "weighted_f1": 0.02508531999709024,
+        "samples_f1": 0.005661383355145169,
+        "mean_f1": 0.014921462399850162
+    },
+    {
+        "model_id": 7,
+        "config": {
+            "num_conv_layers": 4,
+            "kernel_sizes": [
+                3,
+                4,
+                4,
+                4
+            ],
+            "channels": [
+                16,
+                32,
+                64,
+                128
+            ],
+            "batch_size": 64,
+            "dropout": 0.0,
+            "dense_hidden": 128
+        },
+        "micro_f1": 0.014156416802042236,
+        "weighted_f1": 0.024925240080479416,
+        "samples_f1": 0.00556444185933789,
+        "mean_f1": 0.01488203291395318
+    },
+    {
+        "model_id": 4,
+        "config": {
+            "num_conv_layers": 1,
+            "kernel_sizes": [
+                6
+            ],
+            "channels": [
+                16
+            ],
+            "batch_size": 32,
+            "dropout": 0.0,
+            "dense_hidden": 64
+        },
+        "micro_f1": 0.01384083044982699,
+        "weighted_f1": 0.025568673361167533,
+        "samples_f1": 0.005210605399641316,
+        "mean_f1": 0.014873369736878611
+    },
+    {
+        "model_id": 16,
+        "config": {
+            "num_conv_layers": 4,
+            "kernel_sizes": [
+                5,
+                5,
+                6,
+                6
+            ],
+            "channels": [
+                16,
+                32,
+                64,
+                128
+            ],
+            "batch_size": 128,
+            "dropout": 0.5,
+            "dense_hidden": 64
+        },
+        "micro_f1": 0.012472571890518536,
+        "weighted_f1": 0.023591576729608724,
+        "samples_f1": 0.004842227715573651,
+        "mean_f1": 0.013635458778566971
+    },
+    {
+        "model_id": 11,
+        "config": {
+            "num_conv_layers": 1,
+            "kernel_sizes": [
+                5
+            ],
+            "channels": [
+                16
+            ],
+            "batch_size": 128,
+            "dropout": 0.5,
+            "dense_hidden": 128
+        },
+        "micro_f1": 0.013307984790874526,
+        "weighted_f1": 0.022118450246161745,
+        "samples_f1": 0.004977945809703843,
+        "mean_f1": 0.01346812694891337
+    },
+    {
+        "model_id": 13,
+        "config": {
+            "num_conv_layers": 2,
+            "kernel_sizes": [
+                2,
+                4
+            ],
+            "channels": [
+                16,
+                32
+            ],
+            "batch_size": 128,
+            "dropout": 0.5,
+            "dense_hidden": 128
+        },
+        "micro_f1": 0.012462445754979415,
+        "weighted_f1": 0.022771694786887255,
+        "samples_f1": 0.0047549803693471,
+        "mean_f1": 0.013329706970404592
+    },
+    {
+        "model_id": 8,
+        "config": {
+            "num_conv_layers": 3,
+            "kernel_sizes": [
+                2,
+                3,
+                4
+            ],
+            "channels": [
+                16,
+                32,
+                64
+            ],
+            "batch_size": 64,
+            "dropout": 0.0,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.01149889045793827,
+        "weighted_f1": 0.023723403596437095,
+        "samples_f1": 0.004701662546653095,
+        "mean_f1": 0.013307985533676153
+    },
+    {
+        "model_id": 3,
+        "config": {
+            "num_conv_layers": 1,
+            "kernel_sizes": [
+                5
+            ],
+            "channels": [
+                16
+            ],
+            "batch_size": 32,
+            "dropout": 0.0,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.013250271927222388,
+        "weighted_f1": 0.02076225429577446,
+        "samples_f1": 0.0054020648538606955,
+        "mean_f1": 0.013138197025619183
+    },
+    {
+        "model_id": 14,
+        "config": {
+            "num_conv_layers": 2,
+            "kernel_sizes": [
+                2,
+                5
+            ],
+            "channels": [
+                16,
+                32
+            ],
+            "batch_size": 128,
+            "dropout": 0.0,
+            "dense_hidden": 128
+        },
+        "micro_f1": 0.012640296393156806,
+        "weighted_f1": 0.021655026762259263,
+        "samples_f1": 0.005116433660857101,
+        "mean_f1": 0.013137252272091058
+    },
+    {
+        "model_id": 0,
+        "config": {
+            "num_conv_layers": 2,
+            "kernel_sizes": [
+                6,
+                6
+            ],
+            "channels": [
+                16,
+                32
+            ],
+            "batch_size": 32,
+            "dropout": 0.5,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.012390087929656275,
+        "weighted_f1": 0.02074314368188973,
+        "samples_f1": 0.004878926996129265,
+        "mean_f1": 0.012670719535891758
+    },
+    {
+        "model_id": 5,
+        "config": {
+            "num_conv_layers": 2,
+            "kernel_sizes": [
+                2,
+                4
+            ],
+            "channels": [
+                16,
+                32
+            ],
+            "batch_size": 32,
+            "dropout": 0.5,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.011921600323297636,
+        "weighted_f1": 0.01893499710460206,
+        "samples_f1": 0.00470235498590886,
+        "mean_f1": 0.011852984137936187
+    },
+    {
+        "model_id": 2,
+        "config": {
+            "num_conv_layers": 1,
+            "kernel_sizes": [
+                4
+            ],
+            "channels": [
+                16
+            ],
+            "batch_size": 32,
+            "dropout": 0.0,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.010873786407766988,
+        "weighted_f1": 0.019541395468244557,
+        "samples_f1": 0.00438175561048907,
+        "mean_f1": 0.011598979162166873
+    },
+    {
+        "model_id": 15,
+        "config": {
+            "num_conv_layers": 2,
+            "kernel_sizes": [
+                2,
+                4
+            ],
+            "channels": [
+                16,
+                32
+            ],
+            "batch_size": 128,
+            "dropout": 0.0,
+            "dense_hidden": 64
+        },
+        "micro_f1": 0.010705491917353604,
+        "weighted_f1": 0.01919161876421864,
+        "samples_f1": 0.004168484319713053,
+        "mean_f1": 0.011355198333761765
+    },
+    {
+        "model_id": 17,
+        "config": {
+            "num_conv_layers": 1,
+            "kernel_sizes": [
+                2
+            ],
+            "channels": [
+                16
+            ],
+            "batch_size": 128,
+            "dropout": 0.5,
+            "dense_hidden": 32
+        },
+        "micro_f1": 0.009699129057798891,
+        "weighted_f1": 0.01928797147205845,
+        "samples_f1": 0.004294508264262517,
+        "mean_f1": 0.011093869598039952
+    }
+]
