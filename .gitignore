@@ -21,3 +21,6 @@ history_valid_loss.npy
 utils/dataset/dataset_config_custom.json
 _unused
 models/CustomCNN/config_*/*
+Tovanella/
+segments/
+utils_1/
