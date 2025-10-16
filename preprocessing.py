@@ -564,6 +564,207 @@ def generate_dataset_stats(dataset_path, species_list):
 
     return dataset_count
 
+@cli.command()
+@click.option(
+    '--dataset-name',
+    default='dataset',
+    help='Name of the dataset directory.',
+    show_default=True
+)
+@click.option(
+    '--segments-base',
+    default='segments',
+    type=click.Path(),
+    help='Base directory for segments.',
+    show_default=True
+)
+@click.option(
+    '--dataset-variant',
+    default='custom',
+    help='Dataset variant identifier.',
+    show_default=True
+)
+@click.option(
+    '--force-regenerate',
+    is_flag=True,
+    help='Force regeneration of dataset config.'
+)
+def prepare_dataset(dataset_name, segments_base, dataset_variant, force_regenerate):
+    """
+    Prepare dataset configuration and mappings.
+
+    Creates JSON configuration file containing species mappings and
+    sample paths for train/valid/test splits. Required before training.
+    """
+    click.echo("=" * 60)
+    click.echo("DATASET CONFIGURATION")
+    click.echo("=" * 60)
+
+    dataset_path = Path(segments_base)
+    train_path = dataset_path / 'train'
+    valid_path = dataset_path / 'valid'
+    test_path = dataset_path / 'test'
+
+    # Verify paths exist
+    for path in [train_path, valid_path, test_path]:
+        if not path.exists():
+            click.echo(f"\n❌ Error: Required path does not exist: {path}")
+            return
+
+    click.echo(f"\n📁 Dataset: {dataset_path}")
+    click.echo(f"🏷️  Variant: {dataset_variant}")
+
+    # Create config
+    config_file = f'dataset_config_{dataset_variant}.json'
+    saving_path = Path('utils') / dataset_name / config_file
+    saving_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if saving_path.exists() and not force_regenerate:
+        click.echo(f"\n✅ Dataset config already exists: {saving_path}")
+        click.echo("   Use --force-regenerate to recreate")
+
+        with open(saving_path) as f:
+            config = json.load(f)
+
+        click.echo(f"\n📊 Configuration summary:")
+        click.echo(f"   Species count: {len(config['mappings'])}")
+        click.echo(f"   Training samples: {len(config['samples']['train'])}")
+        click.echo(f"   Validation samples: {len(config['samples']['valid'])}")
+        click.echo(f"   Test samples: {len(config['samples']['test'])}")
+        return
+
+    click.echo(f"\n⚙️  Generating dataset configuration...")
+
+    # Get species mappings
+    click.echo("   → Building species mappings...")
+    mappings = utils.get_mappings(str(train_path))
+    click.echo(f"   ✓ Found {len(mappings)} species classes")
+
+    # Collect samples
+    click.echo("   → Collecting sample paths...")
+    samples_train, samples_valid, samples_test = utils.collect_samples(
+        str(train_path),
+        str(valid_path),
+        str(test_path),
+        mappings
+    )
+
+    samples = []
+    samples.extend(samples_train.values())
+    samples.extend(samples_valid.values())
+    samples.extend(samples_test.values())
+    dataset_config = {
+        "mappings": mappings,
+        "samples": samples
+    }
+
+    # Save configuration
+    with open(saving_path, 'w') as f:
+        json.dump(dataset_config, f, indent=2)
+
+    click.echo(f"\n💾 Configuration saved: {saving_path}")
+    click.echo(f"\n📊 Dataset summary:")
+    click.echo(f"   Species count: {len(mappings)}")
+    click.echo(f"   Training samples: {len(samples_train)}")
+    click.echo(f"   Validation samples: {len(samples_valid)}")
+    click.echo(f"   Test samples: {len(samples_test)}")
+
+    # Display first few species
+    click.echo(f"\n🏷️  Species classes (first 10):")
+    for species, idx in list(mappings.items())[:10]:
+        click.echo(f"   [{idx:3d}] {species}")
+
+    if len(mappings) > 10:
+        click.echo(f"   ... and {len(mappings) - 10} more")
+
+    click.echo(f"\n✅ Dataset configuration completed!")
+
+
+@cli.command()
+@click.option(
+    '--dataset-name',
+    default='dataset',
+    help='Name of the dataset directory.',
+    show_default=True
+)
+@click.option(
+    '--segments-base',
+    default='segments',
+    type=click.Path(),
+    help='Base directory for segments.',
+    show_default=True
+)
+@click.option(
+    '--dataset-variant',
+    default='custom',
+    help='Dataset variant identifier.',
+    show_default=True
+)
+@click.option(
+    '--force-regenerate',
+    is_flag=True,
+    help='Force regeneration of spectrograms.'
+)
+def generate_spectrograms(dataset_name, segments_base, dataset_variant, force_regenerate):
+    """
+    Generate mel-spectrograms from audio segments.
+
+    Converts audio files to mel-spectrogram representations for
+    CNN input. Processes all splits (train/valid/test).
+    """
+    click.echo("=" * 60)
+    click.echo("SPECTROGRAM GENERATION")
+    click.echo("=" * 60)
+
+    dataset_path = Path(segments_base)
+
+    # Load dataset config
+    config_file = Path('utils') / dataset_name / f'dataset_config_{dataset_variant}.json'
+    if not config_file.exists():
+        click.echo(f"\n❌ Error: Dataset config not found: {config_file}")
+        click.echo("   Run 'prepare-dataset' first")
+        return
+
+    with open(config_file) as f:
+        dataset_config = json.load(f)
+
+    click.echo(f"\n📁 Dataset: {dataset_path}")
+    click.echo(f"🔊 Processing {len(dataset_config['mappings'])} species")
+
+    # Define spectrogram paths
+    specs_train = dataset_path / 'train_specs'
+    specs_valid = dataset_path / 'valid_specs'
+    specs_test = dataset_path / 'test_specs'
+
+    # Create directories
+    specs_train.mkdir(parents=True, exist_ok=True)
+    specs_valid.mkdir(parents=True, exist_ok=True)
+    specs_test.mkdir(parents=True, exist_ok=True)
+
+    click.echo(f"\n⚙️  Generating mel-spectrograms...")
+
+    # Process each split
+    splits = [
+        ('train', dataset_path / 'train', specs_train),
+        ('valid', dataset_path / 'valid', specs_valid),
+        ('test', dataset_path / 'test', specs_test)
+    ]
+
+    for split_name, audio_path, spec_path in splits:
+        click.echo(f"\n🔄 Processing {split_name} split...")
+        utils.specs_generation(
+            str(audio_path),
+            str(spec_path),
+            dataset_config['mappings']
+        )
+
+        # Count generated specs
+        spec_count = sum(1 for _ in spec_path.rglob('*.npy'))
+        click.echo(f"   ✓ Generated {spec_count} spectrograms")
+
+    click.echo(f"\n✅ Spectrogram generation completed!")
+
+
 
 if __name__ == '__main__':
     cli()
