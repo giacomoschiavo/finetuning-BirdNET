@@ -227,8 +227,25 @@ def preprocess(dataset_name, segments_base, train_split, valid_split,
 
     click.echo(f"\n🔍 Found {len(species_list)} species to process")
 
+    # Move species not in species list to the "removed" folder
+    click.echo(f"\n🗑️  Removing unwanted species...")
+    removed_path = dataset_path / 'removed'
+    removed_path.mkdir(parents=True, exist_ok=True)
+    for species_dir in train_path.iterdir():
+        if species_dir.name not in species_list:
+            target_dir = removed_path / species_dir.name
+            target_dir.parent.mkdir(parents=True, exist_ok=True)
+            species_dir.rename(target_dir)
+            click.echo(f"Moved {species_dir.name} to removed folder")
+
     # Process splits
     click.echo(f"\n⚙️  Performing dataset splits...")
+
+    # Check if files aleready present in valid folder
+    if any(valid_path.glob('*/*.wav')):
+        click.echo(f"\n❌ Error: Validation directory is not empty!")
+        click.echo(f"   Please clear {valid_path} before proceeding.")
+        return
 
     for species in tqdm(species_list, desc="Processing species"):
         species_train = train_path / species
@@ -507,7 +524,6 @@ def stats(dataset_name, segments_base, exclude_species, output_csv):
     if output_csv:
         df.to_csv(output_csv)
         click.echo(f"\n💾 Statistics exported to: {output_csv}")
-
 
 def generate_dataset_stats(dataset_path, species_list):
     """
