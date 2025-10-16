@@ -4,16 +4,12 @@ BirdNET Audio Segments Processing Pipeline
 Modular pipeline for extraction and preprocessing of ornithological audio segments
 """
 
-import os
 import json
 import click
 import pandas as pd
-import scipy.io
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from pydub import AudioSegment
-from tqdm import tqdm
-import copy
 
 # Assuming birdlib and utils are available
 try:
@@ -198,11 +194,11 @@ class BirdNETProcessor:
         """
         click.echo("🚀 Starting full BirdNET pipeline...")
 
-        # 1. File preprocessing
+        # File preprocessing
         self.convert_mp3_to_wav()
         self.normalize_filenames()
 
-        # 2. Extract annotations
+        # Extract annotations
         category_annots_train, audio_annots_train = self.extract_annotations(
             "Bird_tags_Train.mat", species_dict_file
         )
@@ -210,18 +206,13 @@ class BirdNETProcessor:
             "Bird_tags_Test.mat", species_dict_file
         )
 
-        # 3. Train/test split (assuming train/test files are separated)
-        # Custom split logic can be implemented here if needed
-
-        # 4. Generate segments for all splits
+        # Generate segments for all splits
         if audio_annots_train and audio_annots_test:
             self.generate_audio_segments(audio_annots_train, split="train", generate_none=generate_none)
             self.generate_audio_segments(audio_annots_test, split="test", generate_none=False)
             # If there are separate test annotations, handle them here
 
-        # 5. Final analysis
         self.analyze_dataset_distribution()
-
         click.echo("🎉 Pipeline completed successfully!")
 
 
