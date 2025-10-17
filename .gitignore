@@ -24,3 +24,4 @@ models/CustomCNN/config_*/*
 Tovanella/
 segments/
 utils_1/
+requirements_old.txt
