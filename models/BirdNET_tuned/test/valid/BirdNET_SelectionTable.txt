@@ -1,0 +1,1 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Common Name	Species Code	Confidence	Begin Path	File Offset (s)

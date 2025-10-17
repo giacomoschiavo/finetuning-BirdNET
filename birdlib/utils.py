@@ -12,6 +12,7 @@ import numpy as np
 import librosa
 from pydub import AudioSegment
 from tqdm import tqdm
+from pathlib import Path
 
 def get_mappings(train_path):
     train_species = os.listdir(train_path) 
@@ -111,18 +112,20 @@ def collect_samples(train_path, valid_path, test_path, mappings):
     for _, props in samples_test.items():
         samples.append(props)
 
-    return samples
+    return samples_train, samples_valid, samples_test 
 
 def wav_to_spec(audio_path):
-    split = audio_path.split("/")[-3]
-    audio = audio_path.replace("wav", "pt").replace(split, f"{split}_specs")
-    return audio
+    # segments\train\Anthus trivialis_Tree Pipit\20190601_080000_433_5_aug_gain.wav
+    #  -> segments\train_specs\Anthus trivialis_Tree Pipit\20190601_080000_433_5_aug_gain.pt
+    audio_path_obj  = Path(audio_path)
+    split = audio_path_obj.parts[-3]
+    new_dir = audio_path_obj.parent.parent.parent / f"{split}_specs" / audio_path_obj.parent.name
+    return new_dir / audio_path_obj.with_suffix(".pt").name
 
 class CachedAudioDataset(Dataset):
     def __init__(self, dataset_config, split="train"):
         self.samples = [s for s in dataset_config["samples"] if s["split"] == split]
         self.num_classes = len(dataset_config["mappings"])
-        
         # Carica tutto in RAM
         self.cache = []
         for sample in self.samples:
