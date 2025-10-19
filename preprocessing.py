@@ -622,15 +622,6 @@ def prepare_dataset(dataset_name, segments_base, dataset_variant, force_regenera
     if saving_path.exists() and not force_regenerate:
         click.echo(f"\n✅ Dataset config already exists: {saving_path}")
         click.echo("   Use --force-regenerate to recreate")
-
-        with open(saving_path) as f:
-            config = json.load(f)
-
-        click.echo(f"\n📊 Configuration summary:")
-        click.echo(f"   Species count: {len(config['mappings'])}")
-        click.echo(f"   Training samples: {len(config['samples']['train'])}")
-        click.echo(f"   Validation samples: {len(config['samples']['valid'])}")
-        click.echo(f"   Test samples: {len(config['samples']['test'])}")
         return
 
     click.echo(f"\n⚙️  Generating dataset configuration...")

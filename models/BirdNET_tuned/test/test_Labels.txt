@@ -14,7 +14,6 @@ Phylloscopus collybita_Common Chiffchaff
 Regulus ignicapilla_Common Firecrest
 Regulus regulus_Goldcrest
 Sylvia atricapilla_Eurasian Blackcap
-Thunder
 Troglodytes troglodytes_Eurasian Wren
 Turdus merula_Eurasian Blackbird
 Vegetation

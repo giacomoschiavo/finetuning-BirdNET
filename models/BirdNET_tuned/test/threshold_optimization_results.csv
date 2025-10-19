@@ -1,0 +1,21 @@
+species,threshold,f1_score,num_samples
+None,0.95,0.8576366385828472,2809
+Anthus trivialis_Tree Pipit,0.9122110552763818,0.6684491978609626,257
+Periparus ater_Coal Tit,0.9452763819095477,0.5427974947807933,453
+Sylvia atricapilla_Eurasian Blackcap,0.95,0.5191675794085433,1640
+Fringilla coelebs_Common Chaffinch,0.95,0.5120139799038882,3940
+Phylloscopus collybita_Common Chiffchaff,0.95,0.4870292887029289,1036
+Loxia curvirostra_Common Crossbill,0.9452763819095477,0.4722222222222222,141
+Wind,0.9027638190954773,0.4444444444444444,110
+Erithacus rubecula_European Robin,0.95,0.4296160877513711,1026
+Turdus merula_Eurasian Blackbird,0.9311055276381909,0.39501039501039503,447
+Regulus ignicapilla_Common Firecrest,0.95,0.2572192513368984,3723
+Aeroplane,0.8744221105527638,0.22916666666666666,104
+Regulus regulus_Goldcrest,0.95,0.19425675675675674,1432
+Vegetation,0.95,0.13559322033898305,619
+Troglodytes troglodytes_Eurasian Wren,0.95,0.13016596160104132,3497
+Lophophanes cristatus_Crested Tit,0.95,0.1254355400696864,391
+Parus major_Great Tit,0.95,0.055944055944055944,530
+Muscicapa striata_Spotted Flycatcher,0.95,0.054512416717141125,2062
+Coccothraustes coccothraustes_Hawfinch,0.95,0.04823747680890538,722
+Certhia familiaris_Eurasian Treecreeper,0.95,0.04063456721402728,4150

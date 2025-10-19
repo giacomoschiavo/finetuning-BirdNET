@@ -21,6 +21,7 @@ from sklearn.metrics import classification_report, f1_score
 from sklearn.preprocessing import MultiLabelBinarizer
 import pandas as pd
 import sys
+from birdlib import utils
 
 @click.group()
 def cli():
@@ -304,7 +305,7 @@ def analyze(dataset_name, dataset_variant, segments_base, model_base,
         click.echo(f"\n🔍 Analyzing {split_name} data...")
         try:
             birdnet_dir = Path(__file__).parent / "BirdNET-Analyzer"
-            result = subprocess.run(cmd, cwd=(birdnet_dir), check=True, text=True, capture_output=True)
+            result = subprocess.run(cmd, cwd=birdnet_dir, check=True, text=True)
             click.echo(f"   ✅ Analysis completed for {split_name}")
 
             # Check for selection table
@@ -350,13 +351,13 @@ def analyze(dataset_name, dataset_variant, segments_base, model_base,
     help='Directory containing dataset config.',
     show_default=True
 )
-@click.option(
-    '--species-mapping',
-    default='utils/species_dict_map.json',
-    type=click.Path(exists=True),
-    help='Species name mapping file.',
-    show_default=True
-)
+# @click.option(
+#     '--species-mapping',
+#     default='utils/species_dict_map.json',
+#     type=click.Path(exists=True),
+#     help='Species name mapping file.',
+#     show_default=True
+# )
 @click.option(
     '--num-thresholds',
     default=200,
@@ -385,8 +386,7 @@ def analyze(dataset_name, dataset_variant, segments_base, model_base,
     help='Default threshold for species without optimization.',
     show_default=True
 )
-def optimize_thresholds(dataset_name, dataset_variant, model_base, utils_dir,
-                       species_mapping, num_thresholds, min_thresh, max_thresh,
+def optimize_thresholds(dataset_name, dataset_variant, model_base, utils_dir, num_thresholds, min_thresh, max_thresh,
                        default_thresh):
     """
     Compute optimal confidence thresholds per species.
@@ -416,8 +416,8 @@ def optimize_thresholds(dataset_name, dataset_variant, model_base, utils_dir,
     class_names = list(dataset_config['mappings'].keys())
 
     # Load species mapping
-    with open(species_mapping) as f:
-        species_dict = json.load(f)
+    labels_path = results_path / f'{dataset_variant}_Labels.txt'
+    species_dict = utils.get_species_dict(labels_path)
     inv_species_dict = {v: k for k, v in species_dict.items()}
 
     click.echo(f"   Classes: {len(class_names)}")
@@ -514,38 +514,38 @@ def optimize_thresholds(dataset_name, dataset_variant, model_base, utils_dir,
 )
 @click.option(
     '--dataset-variant',
-    default='augm_final',
+    default='test',
     help='Model variant identifier.',
     show_default=True
 )
 @click.option(
     '--segments-base',
-    default='/home/giacomoschiavo/segments',
+    default='segments',
     type=click.Path(),
     help='Base directory for audio segments.',
     show_default=True
 )
 @click.option(
     '--model-base',
-    default='/home/giacomoschiavo/finetuning-BirdNET/models/BirdNET_tuned',
+    default='models/BirdNET_tuned',
     type=click.Path(),
     help='Base directory for BirdNET models.',
     show_default=True
 )
 @click.option(
     '--utils-dir',
-    default='./utils',
+    default='utils',
     type=click.Path(),
     help='Directory containing dataset config.',
     show_default=True
 )
-@click.option(
-    '--species-mapping',
-    default='/home/giacomoschiavo/finetuning-BirdNET/utils/species_dict_map.json',
-    type=click.Path(exists=True),
-    help='Species name mapping file.',
-    show_default=True
-)
+# @click.option(
+#     '--species-mapping',
+#     default='utils/species_dict_map.json',
+#     type=click.Path(exists=True),
+#     help='Species name mapping file.',
+#     show_default=True
+# )
 @click.option(
     '--default-thresh',
     default=0.15,
@@ -553,8 +553,7 @@ def optimize_thresholds(dataset_name, dataset_variant, model_base, utils_dir,
     help='Default threshold for unmapped species.',
     show_default=True
 )
-def evaluate(dataset_name, dataset_variant, segments_base, model_base, utils_dir,
-            species_mapping, default_thresh):
+def evaluate(dataset_name, dataset_variant, segments_base, model_base, utils_dir, default_thresh):
     """
     Evaluate model performance on test set with optimized thresholds.
 
@@ -567,12 +566,16 @@ def evaluate(dataset_name, dataset_variant, segments_base, model_base, utils_dir
 
     results_path = Path(model_base) / dataset_variant
     test_table = results_path / 'test' / 'BirdNET_SelectionTable.txt'
-    test_path = Path(segments_base) / dataset_name / 'test'
+    test_path = Path(segments_base) / 'test'
 
     if not test_table.exists():
         click.echo(f"\n❌ Error: Test results not found: {test_table}")
         click.echo("   Run 'analyze --split test' first")
         raise click.Abort()
+    
+    labels_path = results_path / f'{dataset_variant}_Labels.txt'
+    species_dict = utils.get_species_dict(labels_path)
+    inv_species_dict = {v: k for k, v in species_dict.items()}
 
     # Load optimized thresholds
     thresholds_path = results_path / 'optimized_thresholds.json'
@@ -588,11 +591,6 @@ def evaluate(dataset_name, dataset_variant, segments_base, model_base, utils_dir
     config_path = Path(utils_dir) / dataset_name / 'dataset_config_custom.json'
     with open(config_path) as f:
         dataset_config = json.load(f)
-
-    # Load species mapping
-    with open(species_mapping) as f:
-        species_dict = json.load(f)
-    inv_species_dict = {v: k for k, v in species_dict.items()}
 
     # Get test species
     test_species_list = os.listdir(test_path)

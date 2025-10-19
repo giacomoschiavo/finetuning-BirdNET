@@ -118,6 +118,8 @@ def wav_to_spec(audio_path):
     # segments\train\Anthus trivialis_Tree Pipit\20190601_080000_433_5_aug_gain.wav
     #  -> segments\train_specs\Anthus trivialis_Tree Pipit\20190601_080000_433_5_aug_gain.pt
     audio_path_obj  = Path(audio_path)
+    if "\\" in audio_path:
+        audio_path_obj = Path(str(audio_path).replace("\\", "/"))
     split = audio_path_obj.parts[-3]
     new_dir = audio_path_obj.parent.parent.parent / f"{split}_specs" / audio_path_obj.parent.name
     return new_dir / audio_path_obj.with_suffix(".pt").name
@@ -233,7 +235,8 @@ def get_species_dict(labels_path):
     # maps every scientific name to its common name
     species_dict = {}
     for specie in all_species:
-        scientific_name, common_name = specie.split("_")    # <Abroscopus albogularis>_<Rufous-faced Warbler>
+        # <Abroscopus albogularis>_<Rufous-faced Warbler>
+        scientific_name, common_name = specie.split("_") if "_" in specie else (specie, "")
         species_dict[scientific_name] = common_name
 
     return species_dict
