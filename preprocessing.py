@@ -162,7 +162,7 @@ def integrate_segments(dataset_name, audio_source, segments_base, annotation_fil
 )
 @click.option(
     '--train-split',
-    default=0.7,
+    default=0.85,
     type=float,
     help='Training set proportion (0.0-1.0).',
     show_default=True

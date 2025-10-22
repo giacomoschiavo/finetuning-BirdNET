@@ -7,21 +7,19 @@ A comprehensive solution for ornithological research combining **BirdNET fine-tu
 
 ## 📘 Overview
 
-This repository provides an **end-to-end machine learning pipeline** for bird sound classification, featuring:
+This repository provides an end-to-end machine learning pipeline for bird sound classification, featuring:
 
-- 🐦 Dataset preprocessing with automated segmentation and annotation processing  
-- 🧠 Custom CNN training with configurable architectures and hyperparameters  
-- 🔧 BirdNET fine-tuning on domain-specific datasets 
-- 🎚️ Advanced data augmentation (pitch shift, time stretch, gain, background noise injection)  
-- 🎯 Threshold optimization for multi-label classification performance  
-- 📊 Comprehensive evaluation with precision, recall, F1-score (micro/macro/weighted/samples)
-
+- Dataset preprocessing with automated segmentation and annotation processing​
+- Custom CNN training with configurable architectures and hyperparameters​
+- BirdNET fine-tuning on domain-specific datasets with TensorFlow Lite optimization​
+- Advanced data augmentation including pitch shift, time stretch, and background noise injection​
+- Threshold optimization for multi-label classification performance​
+- Comprehensive evaluation with precision, recall, F1-score (micro/macro/weighted/samples)
 ---
 
 ## ⚙️ Key Features
 
 - **Multi-model support:** Train custom CNNs or fine-tune pre-trained BirdNET models  
-- **Production-ready:** CLI interfaces with extensive configuration options  
 - **Scalable architecture:** Batch processing, GPU acceleration, multi-threading support  
 - **Scientific validation:** Per-class metrics, confusion matrices, optimal threshold computation  
 - **Reproducibility:** Comprehensive logging, checkpointing, and configuration management
@@ -77,61 +75,101 @@ Place it in the **project root directory.**
 ### 1. Dataset Preparation
 Convert and normalize audio files:
 ```bash
-python build_dataset.py   --audio-source /path/to/raw/audio   --dataset-path segments   --bird-tags-files Bird_tags_Train.mat Bird_tags_Test.mat   --species-dict BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt
+python build_dataset.py   \
+  --audio-source /path/to/raw/audio   \
+  --dataset-path segments   \
+  --bird-tags-files Bird_tags_Train.mat Bird_tags_Test.mat   \
+  --species-dict BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt
 ```
 
 Integrate annotated segments:
 ```bash
-python preprocessing.py integrate-segments   --audio-source Tovanella   --annotation-file Birds_tags_Train_2.mat   --labels-file BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt
+python preprocessing.py integrate-segments   
+  --audio-source Tovanella   \
+  --annotation-file Birds_tags_Train_2.mat   \
+  --labels-file BirdNET_GLOBAL_6K_V2.4_Labels_en_uk.txt
 ```
 
 ### 2. Preprocessing & Augmentation
 Split dataset:
 ```bash
-python preprocessing.py preprocess   --segments-base segments   --train-split 0.7   --valid-split 0.15
+python preprocessing.py preprocess   
+  --segments-base segments   \
+  --train-split 0.85   \
+  --valid-split 0.15
 ```
 
 Apply data augmentation:
 ```bash
-python preprocessing.py augment   --target-count 1000   --max-none-samples 5000
+python preprocessing.py augment   \
+  --target-count 1000   \
+  --max-none-samples 5000
 ```
 
 Generate mel-spectrograms:
 ```bash
-python preprocessing.py generate-spectrograms   --dataset-variant custom
+python preprocessing.py generate-spectrograms   \
+  --dataset-variant test
 ```
 
 ### 3. Model Training
 #### Option A — Custom CNN Training
 ```bash
-python custom_cnn_training.py train   --model-name CustomCNN   --dataset-variant custom   --num-conv-layers 4   --channels 16,32,64,128   --batch-size 128   --epochs 200   --learning-rate 1e-4   --gpu-id 0
+python custom_cnn_training.py train   \
+  --model-name CustomCNN   \
+  --dataset-variant test   \
+  --num-conv-layers 4   \
+  --kernel-sizes 4,5,6,6  \
+  --channels 16,32,64,128   \
+  --batch-size 128   \
+  --epochs 200   \
+  --learning-rate 1e-4   \
+  --gpu-id 0
 ```
 Evaluate:
 ```bash
-python custom_cnn_training.py evaluate   --model-name CustomCNN   --dataset-variant custom
+python custom_cnn_training.py evaluate   \
+  --model-name CustomCNN   \
+  --dataset-variant test
 ```
 
 #### Option B — BirdNET Fine-tuning
 ```bash
-python birdnet_testing.py finetune   --dataset-variant test   --batch-size 64   --epochs 150   --threads 16   --mixup
+python birdnet_testing.py finetune   \
+  --dataset-variant test   \
+  --batch-size 64   \
+  --epochs 150   \
+  --threads 16   \
+  --mixup
 ```
 
 ### 4. Inference & Evaluation
 Run BirdNET inference:
 ```bash
-python birdnet_testing.py analyze   --dataset-variant test   --split both   --min-conf 0.05   --sensitivity 1.0
+python birdnet_testing.py analyze   \
+  --dataset-variant test   \
+  --split both   \
+  --min-conf 0.05   \
+  --sensitivity 1.0
 ```
 Optimize thresholds:
 ```bash
-python birdnet_testing.py optimize-thresholds   --dataset-variant test   --num-thresholds 200
+python birdnet_testing.py optimize-thresholds   \
+  --dataset-variant test   \
+  --num-thresholds 200
 ```
 Evaluate:
 ```bash
-python birdnet_testing.py evaluate   --dataset-variant test
+python birdnet_testing.py evaluate   \
+  --dataset-variant test
 ```
 Full automated pipeline:
 ```bash
-python birdnet_testing.py full-pipeline   --dataset-variant production_v1   --batch-size 64   --epochs 150   --threads 16
+python birdnet_testing.py full-pipeline   \
+  --dataset-variant test   \
+  --batch-size 64   \
+  --epochs 150   \
+  --threads 16
 ```
 
 ---
